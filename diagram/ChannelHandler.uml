@@ -1,0 +1,2580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.netty.channel.ChannelHandler</OriginalElement>
+  <nodes>
+    <node x="10540.44958535586" y="1610.0">io.netty.example.http.websocketx.benchmarkserver.WebSocketServerHandler</node>
+    <node x="6080.44958535586" y="1610.0">io.netty.handler.codec.http.HttpResponseDecoder</node>
+    <node x="21897.59320237714" y="180.0">io.netty.channel.ChannelInboundHandlerAdapter</node>
+    <node x="35220.09320237714" y="790.0">io.netty.handler.stream.ChunkedWriteHandler</node>
+    <node x="2383.449585355862" y="1610.0">io.netty.handler.codec.marshalling.CompatibleMarshallingDecoder</node>
+    <node x="2985.0588235294126" y="790.0">io.netty.example.portunification.PortUnificationServerHandler</node>
+    <node x="1357.2588235294097" y="1610.0">io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder</node>
+    <node x="14744.44958535586" y="1610.0">io.netty.example.localecho.LocalEchoClientHandler</node>
+    <node x="31137.30006816998" y="790.0">io.netty.channel.DefaultChannelPipelineTest.BufferedTestHandler</node>
+    <node x="1187.449585355862" y="1900.0">io.netty.handler.codec.http.websocketx.WebSocket07FrameDecoder</node>
+    <node x="26957.27474765542" y="1610.0">io.netty.handler.codec.http.HttpClientCodec</node>
+    <node x="19158.776727809018" y="1900.0">io.netty.handler.codec.http.websocketx.WebSocketClientProtocolHandler.ClientHandshakeStateEvent</node>
+    <node x="28107.445698185285" y="1900.0">io.netty.example.spdy.client.SpdyClientInitializer</node>
+    <node x="29103.97237802718" y="1900.0">io.netty.handler.traffic.GlobalTrafficShapingHandler.ToSend</node>
+    <node x="5419.44958535586" y="1900.0">io.netty.handler.codec.rtsp.RtspRequestDecoder</node>
+    <node x="3911.449585355862" y="1900.0">io.netty.handler.codec.socks.SocksInitRequestDecoder.State</node>
+    <node x="3327.449585355862" y="1610.0">io.netty.handler.codec.socks.SocksCmdResponseDecoder</node>
+    <node x="2831.449585355862" y="1610.0">io.netty.handler.codec.socks.SocksAuthRequestDecoder</node>
+    <node x="16188.44958535586" y="1610.0">io.netty.testsuite.transport.socket.TrafficShapingHandlerTest.ClientHandler</node>
+    <node x="25455.77474765542" y="1610.0">io.netty.channel.epoll.EpollReuseAddrTest.DatagramSocketTestHandler</node>
+    <node x="21054.358741663542" y="1900.0">io.netty.testsuite.transport.socket.SocketSslEchoTest.EchoServerHandler</node>
+    <node x="5618.592156862742" y="790.0">io.netty.handler.codec.http.HttpObjectDecoder</node>
+    <node x="14840.44958535586" y="790.0">io.netty.handler.codec.sctp.SctpInboundByteStreamHandler</node>
+    <node x="7818.69958535586" y="480.0">io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandshakeHandler</node>
+    <node x="30274.040172074107" y="180.0">io.netty.channel.ChannelOutboundHandlerAdapter</node>
+    <node x="30330.47237802718" y="1610.0">io.netty.channel.DefaultChannelPipelineTest.TestHandler</node>
+    <node x="23227.445698185285" y="1900.0">io.netty.example.factorial.FactorialServerInitializer</node>
+    <node x="39174.48007280682" y="1610.0">io.netty.handler.codec.rtsp.RtspEncoder</node>
+    <node x="4715.44958535586" y="1610.0">io.netty.handler.codec.compression.SnappyFramedDecoder.ChunkType</node>
+    <node x="16360.44958535586" y="1610.0">io.netty.example.http.snoop.HttpSnoopClientHandler</node>
+    <node x="322.0" y="1610.0">io.netty.handler.codec.http.websocketx.WebSocket00FrameDecoder</node>
+    <node x="29945.30006816998" y="790.0">io.netty.channel.local.LocalTransportThreadModelTest.MessageDiscarder</node>
+    <node x="4439.44958535586" y="790.0">io.netty.handler.codec.LineBasedFrameDecoder</node>
+    <node x="21632.27474765542" y="1610.0">io.netty.handler.codec.string.StringDecoder</node>
+    <node x="22590.92958025138" y="790.0">io.netty.handler.ssl.SslHandler</node>
+    <node x="31836.22237802718" y="1610.0">io.netty.handler.codec.ByteToMessageCodecTest.InvalidByteToMessageCodec2</node>
+    <node x="6300.44958535586" y="1610.0">io.netty.example.udt.echo.bytes.ByteEchoClientHandler</node>
+    <node x="35774.25280007955" y="1610.0">io.netty.handler.stream.ChunkedWriteHandler.PendingWrite</node>
+    <node x="34332.97237802718" y="1610.0">io.netty.handler.codec.rtsp.RtspObjectEncoder</node>
+    <node x="168.0" y="480.0">io.netty.testsuite.transport.socket.SocketAutoReadTest.TestHandler</node>
+    <node x="38428.48007280682" y="1610.0">io.netty.handler.codec.http.HttpRequestEncoder</node>
+    <node x="32112.22237802718" y="1610.0">io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender</node>
+    <node x="7044.44958535586" y="1610.0">io.netty.example.udt.echo.rendezvousBytes.ByteEchoPeerHandler</node>
+    <node x="1779.449585355862" y="1610.0">io.netty.handler.codec.compression.JdkZlibDecoder</node>
+    <node x="23677.852437798225" y="480.0">io.netty.bootstrap.ServerBootstrap.ServerBootstrapAcceptor</node>
+    <node x="2123.449585355862" y="1610.0">io.netty.handler.codec.socks.SocksInitResponseDecoder</node>
+    <node x="29236.97237802718" y="1900.0">io.netty.handler.traffic.GlobalChannelTrafficShapingHandler.PerChannel</node>
+    <node x="17108.449585355862" y="1610.0">io.netty.example.http.websocketx.client.WebSocketClientHandler</node>
+    <node x="5373.44958535586" y="790.0">io.netty.example.factorial.BigIntegerDecoder</node>
+    <node x="30944.22237802718" y="1610.0">io.netty.handler.traffic.GlobalTrafficShapingHandler</node>
+    <node x="6692.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketBufReleaseTest.BufWriterHandler</node>
+    <node x="192.0" y="1610.0">io.netty.testsuite.transport.socket.SocketAutoReadTest.ServerTestHandler.State</node>
+    <node x="19919.360061142346" y="1900.0">io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpRequest</node>
+    <node x="32102.55006816998" y="790.0">io.netty.channel.local.LocalTransportThreadModelTest.ThreadNameAuditor</node>
+    <node x="8304.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketSslGreetingTest.ClientHandler</node>
+    <node x="5039.44958535586" y="1610.0">io.netty.handler.codec.spdy.SpdyOrHttpChooser.SelectedProtocol</node>
+    <node x="15328.44958535586" y="790.0">io.netty.handler.codec.http.websocketx.WebSocketFrameAggregator</node>
+    <node x="4443.44958535586" y="480.0">io.netty.handler.codec.ByteToMessageDecoder</node>
+    <node x="31568.22237802718" y="1610.0">io.netty.handler.codec.ByteToMessageCodecTest.InvalidByteToMessageCodec</node>
+    <node x="37806.25280007955" y="1610.0">io.netty.example.factorial.NumberEncoder</node>
+    <node x="15224.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketGatheringWriteTest.TestHandler</node>
+    <node x="29653.30006816998" y="790.0">io.netty.channel.CombinedChannelDuplexHandler</node>
+    <node x="30463.540172074107" y="80.0">io.netty.channel.ChannelOutboundHandler</node>
+    <node x="7435.479512312646" y="1900.0">io.netty.handler.codec.http.HttpClientCodec.Decoder</node>
+    <node x="755.0" y="790.0">io.netty.handler.timeout.ReadTimeoutHandler.ReadTimeoutTask</node>
+    <node x="8410.69958535586" y="480.0">io.netty.handler.codec.spdy.SpdySessionHandlerTest.EchoHandler</node>
+    <node x="25723.77474765542" y="1610.0">io.netty.example.sctp.SctpEchoServerHandler</node>
+    <node x="2693.0588235294126" y="790.0">io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder</node>
+    <node x="19174.776727809018" y="790.0">io.netty.handler.codec.spdy.SpdyHttpDecoder</node>
+    <node x="36746.25280007955" y="1610.0">io.netty.example.spdy.client.SpdyFrameLogger.Direction</node>
+    <node x="31228.22237802718" y="1610.0">io.netty.handler.traffic.GlobalChannelTrafficShapingHandler</node>
+    <node x="27175.358741663542" y="480.0">io.netty.channel.local.LocalChannelTest.TestHandler</node>
+    <node x="15876.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketFileRegionTest.TestHandler</node>
+    <node x="12512.44958535586" y="790.0">io.netty.channel.SimpleChannelInboundHandler</node>
+    <node x="25959.77474765542" y="1610.0">io.netty.example.echo.EchoServerHandler</node>
+    <node x="18302.199585355862" y="1610.0">io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpMessage</node>
+    <node x="144.0" y="790.0">io.netty.testsuite.transport.socket.SocketAutoReadTest.ServerTestHandler</node>
+    <node x="12568.44958535586" y="1610.0">io.netty.testsuite.transport.socket.TrafficShapingHandlerTest.ServerHandler</node>
+    <node x="24055.445698185285" y="1900.0">io.netty.example.http.websocketx.benchmarkserver.WebSocketServerInitializer</node>
+    <node x="20913.276727809018" y="790.0">io.netty.handler.codec.http.HttpObjectAggregator</node>
+    <node x="39891.48007280682" y="790.0">io.netty.handler.codec.http.websocketx.WebSocketFrameEncoder</node>
+    <node x="35916.09320237714" y="790.0">io.netty.example.spdy.client.SpdyFrameLogger</node>
+    <node x="33764.22237802718" y="1610.0">io.netty.handler.codec.bytes.ByteArrayEncoder</node>
+    <node x="8884.44958535586" y="1610.0">io.netty.example.rxtx.RxtxClientHandler</node>
+    <node x="38235.273207013975" y="790.0">io.netty.handler.codec.sctp.SctpOutboundByteStreamHandler</node>
+    <node x="9512.44958535586" y="1610.0">io.netty.example.worldclock.WorldClockClientHandler</node>
+    <node x="30094.040172074107" y="480.0">io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandlerTest.MockOutboundHandler</node>
+    <node x="19621.906103587622" y="1610.0">io.netty.example.socksproxy.SocksServerHandler</node>
+    <node x="36232.75280007955" y="180.0">io.netty.channel.DefaultChannelPipeline.HeadContext</node>
+    <node x="24811.77474765542" y="1610.0">io.netty.example.udt.echo.bytes.ByteEchoServerHandler</node>
+    <node x="36855.25280007955" y="1900.0">io.netty.handler.codec.http.HttpContentEncoder.State</node>
+    <node x="8476.44958535586" y="1610.0">io.netty.example.file.FileServerHandler</node>
+    <node x="13360.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketStringEchoTest.StringEchoHandler</node>
+    <node x="27559.358741663542" y="480.0">io.netty.example.http.helloworld.HttpHelloWorldServerHandler</node>
+    <node x="3399.449585355862" y="1900.0">io.netty.handler.codec.socks.SocksCmdResponseDecoder.State</node>
+    <node x="27331.358741663542" y="480.0">io.netty.channel.DefaultChannelPipelineTest.StringInboundHandler</node>
+    <node x="15588.44958535586" y="790.0">io.netty.handler.codec.sctp.SctpMessageToMessageDecoder</node>
+    <node x="39330.48007280682" y="1610.0">io.netty.handler.codec.http.HttpResponseEncoder</node>
+    <node x="24661.84320237714" y="480.0">io.netty.test.udt.util.EchoByteHandler</node>
+    <node x="30666.47237802718" y="1610.0">io.netty.channel.local.LocalTransportThreadModelTest3.EventForwarder</node>
+    <node x="36112.09320237714" y="790.0">io.netty.handler.codec.spdy.SpdySessionHandler</node>
+    <node x="23779.445698185285" y="1900.0">io.netty.example.http.upload.HttpUploadClientIntializer</node>
+    <node x="13872.44958535586" y="1610.0">io.netty.example.qotm.QuoteOfTheMomentClientHandler</node>
+    <node x="5711.44958535586" y="1610.0">io.netty.handler.codec.rtsp.RtspObjectDecoder</node>
+    <node x="24411.59320237714" y="80.0">io.netty.channel.ChannelHandlerAdapter</node>
+    <node x="743.0" y="480.0">io.netty.handler.timeout.ReadTimeoutHandler</node>
+    <node x="34148.22237802718" y="1610.0">io.netty.handler.codec.string.StringEncoder</node>
+    <node x="24049.77474765542" y="1610.0">io.netty.channel.epoll.EpollReuseAddrTest.ServerSocketTestHandler</node>
+    <node x="2199.449585355862" y="1900.0">io.netty.handler.codec.socks.SocksInitResponseDecoder.State</node>
+    <node x="14572.44958535586" y="1610.0">io.netty.testsuite.transport.udt.UDTClientServerConnectionTest.ClientHandler</node>
+    <node x="36886.25280007955" y="1610.0">io.netty.handler.codec.spdy.SpdySessionHandler.ClosingChannelFutureListener</node>
+    <node x="36739.25280007955" y="1900.0">io.netty.handler.codec.http.HttpContentEncoder.Result</node>
+    <node x="5555.44958535586" y="1610.0">io.netty.handler.codec.rtsp.RtspDecoder</node>
+    <node x="26899.358741663542" y="480.0">io.netty.example.proxy.HexDumpProxyBackendHandler</node>
+    <node x="31514.80006816998" y="790.0">io.netty.channel.local.LocalTransportThreadModelTest3.EventRecorder</node>
+    <node x="16032.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketCancelWriteTest.TestHandler</node>
+    <node x="12976.44958535586" y="1610.0">io.netty.example.udt.echo.message.MsgEchoClientHandler</node>
+    <node x="25230.77474765542" y="1610.0">io.netty.channel.local.LocalTransportThreadModelTest2.LocalHander</node>
+    <node x="25191.445698185285" y="1900.0">io.netty.channel.epoll.EpollSocketChannelTest.MyInitializer</node>
+    <node x="12088.44958535586" y="1610.0">io.netty.example.http.upload.HttpUploadServerHandler</node>
+    <node x="30486.47237802718" y="1610.0">io.netty.handler.logging.LoggingHandler</node>
+    <node x="23502.77474765542" y="1610.0">io.netty.testsuite.transport.socket.ServerSocketSuspendTest.AcceptedChannelCounter</node>
+    <node x="37805.21765145842" y="480.0">io.netty.handler.codec.MessageToMessageEncoder</node>
+    <node x="27843.358741663542" y="480.0">io.netty.example.sctp.SctpEchoClientHandler</node>
+    <node x="0.0" y="180.0">io.netty.channel.DefaultChannelPipeline.TailContext</node>
+    <node x="1547.449585355862" y="1900.0">io.netty.handler.codec.http.websocketx.WebSocket13FrameDecoder</node>
+    <node x="13564.44958535586" y="1610.0">io.netty.handler.ssl.SSLEngineTest.MessageDelegatorChannelHandler</node>
+    <node x="9556.69958535586" y="480.0">io.netty.example.objectecho.ObjectEchoClientHandler</node>
+    <node x="14416.44958535586" y="1610.0">io.netty.testsuite.transport.sctp.SctpEchoTest.EchoHandler</node>
+    <node x="30314.040172074107" y="480.0">io.netty.handler.timeout.WriteTimeoutHandler</node>
+    <node x="14548.44958535586" y="790.0">io.netty.handler.codec.sctp.SctpMessageCompletionHandler</node>
+    <node x="32306.55006816998" y="790.0">io.netty.handler.traffic.AbstractTrafficShapingHandler</node>
+    <node x="22217.27474765542" y="1610.0">io.netty.handler.ssl.SslHandler.LazyChannelPromise</node>
+    <node x="5631.44958535586" y="1900.0">io.netty.handler.codec.rtsp.RtspResponseDecoder</node>
+    <node x="1439.449585355862" y="1900.0">io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder.State</node>
+    <node x="22346.67958025138" y="480.0">io.netty.testsuite.transport.socket.SocketObjectEchoTest.EchoHandler</node>
+    <node x="23278.852437798225" y="480.0">io.netty.testsuite.websockets.autobahn.AutobahnServerHandler</node>
+    <node x="28682.639044693846" y="1610.0">io.netty.handler.codec.http.HttpServerCodec</node>
+    <node x="26759.445698185285" y="1900.0">io.netty.example.http.upload.HttpUploadServerInitializer</node>
+    <node x="17352.449585355862" y="1610.0">io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler</node>
+    <node x="28343.445698185285" y="1900.0">io.netty.example.http.cors.HttpCorsServerInitializer</node>
+    <node x="22876.352437798225" y="790.0">io.netty.handler.ipfilter.AbstractRemoteAddressFilter</node>
+    <node x="33592.22237802718" y="1610.0">io.netty.handler.codec.base64.Base64Encoder</node>
+    <node x="28870.639044693846" y="1610.0">io.netty.handler.codec.spdy.SpdyHttpCodec</node>
+    <node x="9936.44958535586" y="1610.0">io.netty.example.discard.DiscardServerHandler</node>
+    <node x="36581.25280007955" y="1900.0">io.netty.handler.traffic.ChannelTrafficShapingHandler.ToSend</node>
+    <node x="36062.25280007955" y="1610.0">io.netty.handler.timeout.IdleStateHandler.AllIdleTimeoutTask</node>
+    <node x="19401.906103587622" y="1610.0">io.netty.example.telnet.TelnetServerHandler</node>
+    <node x="37520.773207013975" y="790.0">io.netty.handler.codec.spdy.SpdyHttpEncoder</node>
+    <node x="26793.27474765542" y="1610.0">io.netty.channel.epoll.EpollReuseAddrTest.DummyHandler</node>
+    <node x="5964.69958535586" y="1900.0">io.netty.handler.codec.http.HttpObjectDecoder.LineParser</node>
+    <node x="1360.01592687847" y="80.0">io.netty.channel.ChannelInboundHandler</node>
+    <node x="15632.44958535586" y="1610.0">io.netty.example.factorial.FactorialServerHandler</node>
+    <node x="5235.44958535586" y="1610.0">io.netty.handler.codec.http.HttpObjectDecoder.State</node>
+    <node x="37430.25280007955" y="1610.0">io.netty.handler.codec.compression.ZlibEncoder</node>
+    <node x="3579.449585355862" y="1610.0">io.netty.handler.codec.socks.SocksAuthResponseDecoder</node>
+    <node x="3151.449585355862" y="1900.0">io.netty.handler.codec.socks.SocksCmdRequestDecoder.State</node>
+    <node x="4675.44958535586" y="790.0">io.netty.handler.codec.compression.SnappyFramedDecoder</node>
+    <node x="11664.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketShutdownOutputByPeerTest.TestHandler</node>
+    <node x="8824.69958535586" y="790.0">io.netty.handler.codec.spdy.SpdyFrameCodec</node>
+    <node x="11152.44958535586" y="1610.0">io.netty.example.http.file.HttpStaticFileServerHandler</node>
+    <node x="2730.199585355862" y="480.0">io.netty.testsuite.transport.socket.WriteBeforeRegisteredTest.TestHandler</node>
+    <node x="4895.44958535586" y="790.0">io.netty.handler.codec.ByteToMessageDecoder.Cumulator</node>
+    <node x="27855.445698185285" y="1900.0">io.netty.example.proxy.HexDumpProxyInitializer</node>
+    <node x="398.0" y="790.0">io.netty.handler.codec.http.websocketx.WebSocketFrameDecoder</node>
+    <node x="15132.44958535586" y="790.0">io.netty.handler.codec.bytes.ByteArrayDecoder</node>
+    <node x="38246.25280007955" y="1900.0">io.netty.handler.codec.compression.JZlibEncoder</node>
+    <node x="4091.449585355862" y="1610.0">io.netty.handler.codec.marshalling.MarshallingDecoder</node>
+    <node x="23081.852437798225" y="480.0">io.netty.channel.epoll.EpollSocketChannelTest.ExceptionHandler</node>
+    <node x="9088.44958535586" y="1610.0">io.netty.handler.codec.http.cors.CorsHandlerTest.EchoHandler</node>
+    <node x="22447.445698185285" y="1900.0">io.netty.example.telnet.TelnetClientInitializer</node>
+    <node x="34954.25280007955" y="1610.0">io.netty.handler.traffic.ChannelTrafficShapingHandler</node>
+    <node x="12340.44958535586" y="1610.0">io.netty.testsuite.transport.socket.DatagramMulticastTest.MulticastTestHandler</node>
+    <node x="8548.69958535586" y="790.0">io.netty.handler.codec.DelimiterBasedFrameDecoder</node>
+    <node x="34899.09320237714" y="790.0">io.netty.handler.codec.MessageToMessageCodec</node>
+    <node x="22797.852437798225" y="480.0">io.netty.example.socksproxy.DirectClientHandler</node>
+    <node x="16604.449585355862" y="1610.0">io.netty.example.worldclock.WorldClockServerHandler</node>
+    <node x="33960.22237802718" y="1610.0">io.netty.handler.codec.protobuf.ProtobufEncoder</node>
+    <node x="18914.776727809018" y="790.0">io.netty.handler.codec.http.websocketx.WebSocketProtocolHandler</node>
+    <node x="4303.449585355862" y="1610.0">io.netty.handler.codec.serialization.ObjectDecoder</node>
+    <node x="1799.449585355862" y="1900.0">io.netty.handler.codec.compression.JdkZlibDecoder.GzipState</node>
+    <node x="35938.25280007955" y="1610.0">io.netty.handler.codec.ByteToMessageCodec.Encoder</node>
+    <node x="35562.25280007955" y="1610.0">io.netty.handler.codec.http.HttpContentEncoder</node>
+    <node x="9288.69958535586" y="480.0">io.netty.testsuite.transport.socket.SocketSpdyEchoTest.SpdyEchoTestServerHandler</node>
+    <node x="7508.44958535586" y="1610.0">io.netty.example.qotm.QuoteOfTheMomentServerHandler</node>
+    <node x="10164.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketSslGreetingTest.ServerHandler</node>
+    <node x="32680.22237802718" y="1610.0">io.netty.handler.codec.socks.SocksMessageEncoder</node>
+    <node x="12740.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketStartTlsTest.StartTlsServerHandler</node>
+    <node x="27043.445698185285" y="1900.0">io.netty.example.securechat.SecureChatServerInitializer</node>
+    <node x="29053.519765139677" y="480.0">io.netty.channel.LoggingHandler.Event</node>
+    <node x="23057.77474765542" y="1610.0">io.netty.example.udt.echo.message.MsgEchoServerHandler</node>
+    <node x="2886.199585355862" y="480.0">io.netty.handler.codec.http.websocketx.WebSocketClientProtocolHandshakeHandler</node>
+    <node x="24631.77474765542" y="1610.0">io.netty.handler.ipfilter.UniqueIpFilter</node>
+    <node x="11436.44958535586" y="1610.0">io.netty.example.discard.DiscardClientHandler</node>
+    <node x="7808.44958535586" y="1610.0">io.netty.example.http.upload.HttpUploadClientHandler</node>
+    <node x="16856.449585355862" y="1610.0">io.netty.example.securechat.SecureChatServerHandler</node>
+    <node x="2172.658823529411" y="790.0">io.netty.handler.codec.ReplayingDecoder</node>
+    <node x="39599.23007280682" y="1610.0">io.netty.handler.codec.http.websocketx.WebSocket00FrameEncoder</node>
+    <node x="36510.25280007955" y="1610.0">io.netty.handler.timeout.IdleStateHandler.ReaderIdleTimeoutTask</node>
+    <node x="31357.30006816998" y="790.0">io.netty.handler.codec.http.cors.CorsHandler</node>
+    <node x="38066.25280007955" y="1900.0">io.netty.handler.codec.compression.JdkZlibEncoder</node>
+    <node x="2903.449585355862" y="1900.0">io.netty.handler.codec.socks.SocksAuthRequestDecoder.State</node>
+    <node x="33948.82279544271" y="790.0">io.netty.handler.codec.MessageToByteEncoder</node>
+    <node x="25363.445698185285" y="1900.0">io.netty.example.http.file.HttpStaticFileServerInitializer</node>
+    <node x="36963.25280007955" y="1900.0">io.netty.handler.codec.http.HttpContentEncoderTest.TestEncoder</node>
+    <node x="39851.23007280682" y="1610.0">io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder</node>
+    <node x="27327.445698185285" y="1900.0">io.netty.example.worldclock.WorldClockClientInitializer</node>
+    <node x="39725.23007280682" y="1900.0">io.netty.handler.codec.http.websocketx.WebSocket07FrameEncoder</node>
+    <node x="30141.30006816998" y="790.0">io.netty.channel.local.LocalTransportThreadModelTest.MessageForwarder1</node>
+    <node x="28955.97237802718" y="1900.0">io.netty.handler.traffic.GlobalTrafficShapingHandler.PerChannel</node>
+    <node x="30713.30006816998" y="790.0">io.netty.channel.local.LocalTransportThreadModelTest.MessageForwarder3</node>
+    <node x="31898.55006816998" y="790.0">io.netty.channel.local.LocalTransportThreadModelTest.MessageForwarder2</node>
+    <node x="7264.44958535586" y="1610.0">io.netty.example.http.websocketx.server.WebSocketServerHandler</node>
+    <node x="8198.69958535586" y="480.0">io.netty.test.udt.util.EchoMessageHandler</node>
+    <node x="39038.48007280682" y="1900.0">io.netty.handler.codec.rtsp.RtspRequestEncoder</node>
+    <node x="14172.44958535586" y="1610.0">io.netty.example.http.snoop.HttpSnoopServerHandler</node>
+    <node x="18850.776727809018" y="1900.0">io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler.ServerHandshakeStateEvent</node>
+    <node x="10940.44958535586" y="1610.0">io.netty.example.udt.echo.rendezvous.MsgEchoPeerHandler</node>
+    <node x="24427.77474765542" y="1610.0">io.netty.handler.ipfilter.RuleBasedIpFilter</node>
+    <node x="20337.906103587622" y="1610.0">io.netty.example.uptime.UptimeClientHandler</node>
+    <node x="18661.699585355862" y="1610.0">io.netty.testsuite.transport.socket.SocketSslEchoTest.EchoHandler</node>
+    <node x="24647.445698185285" y="1900.0">io.netty.example.http.snoop.HttpSnoopServerInitializer</node>
+    <node x="9808.69958535586" y="480.0">io.netty.handler.codec.ReplayingDecoderTest.BloatedLineDecoder</node>
+    <node x="5343.44958535586" y="1610.0">io.netty.handler.codec.http.HttpRequestDecoder</node>
+    <node x="33227.72237802718" y="1900.0">io.netty.handler.codec.http.HttpClientCodec.Encoder</node>
+    <node x="28079.358741663542" y="480.0">io.netty.example.objectecho.ObjectEchoServerHandler</node>
+    <node x="33128.22237802718" y="1610.0">io.netty.handler.codec.serialization.ObjectEncoder</node>
+    <node x="17660.449585355862" y="1610.0">io.netty.handler.codec.http.websocketx.WebSocketClientProtocolHandler</node>
+    <node x="21505.67958025138" y="480.0">io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandlerTest.CustomTextFrameHandler</node>
+    <node x="8680.44958535586" y="1610.0">io.netty.example.http.cors.OkResponseHandler</node>
+    <node x="1959.449585355862" y="1610.0">io.netty.handler.codec.compression.JZlibDecoder</node>
+    <node x="36274.25280007955" y="1610.0">io.netty.handler.timeout.IdleStateHandler.WriterIdleTimeoutTask</node>
+    <node x="9244.44958535586" y="1610.0">io.netty.example.spdy.client.HttpResponseClientHandler</node>
+    <node x="22699.445698185285" y="1900.0">io.netty.example.http.websocketx.server.WebSocketServerInitializer</node>
+    <node x="19181.906103587622" y="1610.0">io.netty.example.telnet.TelnetClientHandler</node>
+    <node x="3430.199585355862" y="480.0">io.netty.channel.embedded.EmbeddedChannel.LastInboundHandler</node>
+    <node x="8060.44958535586" y="1610.0">io.netty.example.factorial.FactorialClientHandler</node>
+    <node x="9004.69958535586" y="790.0">io.netty.example.spdy.server.SpdyOrHttpHandler</node>
+    <node x="1516.0588235294126" y="790.0">io.netty.handler.codec.compression.ZlibDecoder</node>
+    <node x="34734.25280007955" y="1610.0">io.netty.handler.traffic.AbstractTrafficShapingHandler.ReopenReadTimerTask</node>
+    <node x="19643.360061142346" y="1900.0">io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpResponse</node>
+    <node x="22553.852437798225" y="480.0">io.netty.example.localecho.LocalEchoServerHandler</node>
+    <node x="13204.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketEchoTest.EchoHandler</node>
+    <node x="3083.449585355862" y="1610.0">io.netty.handler.codec.socks.SocksCmdRequestDecoder</node>
+    <node x="37586.25280007955" y="1610.0">io.netty.handler.codec.compression.SnappyFramedEncoder</node>
+    <node x="30917.30006816998" y="790.0">io.netty.channel.AbstractEventLoopTest.TestChannelHandler2</node>
+    <node x="21258.358741663542" y="1900.0">io.netty.testsuite.transport.socket.SocketSslEchoTest.EchoClientHandler</node>
+    <node x="8924.69958535586" y="480.0">io.netty.handler.ssl.ApplicationProtocolNegotiationHandler</node>
+    <node x="11820.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketSpdyEchoTest.SpdyEchoTestClientHandler</node>
+    <node x="30557.30006816998" y="790.0">io.netty.channel.PendingWriteQueueTest.TestHandler</node>
+    <node x="7662.69958535586" y="480.0">io.netty.testsuite.transport.socket.SocketConnectionAttemptTest.TestHandler</node>
+    <node x="24923.445698185285" y="1900.0">io.netty.testsuite.websockets.autobahn.AutobahnServerInitializer</node>
+    <node x="32900.22237802718" y="1610.0">io.netty.handler.codec.LengthFieldPrepender</node>
+    <node x="6536.44958535586" y="1610.0">io.netty.channel.epoll.EpollSpliceTest.EchoHandler</node>
+    <node x="3655.449585355862" y="1900.0">io.netty.handler.codec.socks.SocksAuthResponseDecoder.State</node>
+    <node x="37178.25280007955" y="1610.0">io.netty.handler.codec.serialization.CompatibleObjectEncoder</node>
+    <node x="29866.040172074107" y="480.0">io.netty.channel.ChannelDuplexHandler</node>
+    <node x="33300.22237802718" y="1610.0">io.netty.handler.codec.marshalling.CompatibleMarshallingEncoder</node>
+    <node x="22845.77474765542" y="1610.0">io.netty.channel.ChannelInitializer</node>
+    <node x="32898.55006816998" y="790.0">io.netty.handler.codec.ByteToMessageCodec</node>
+    <node x="2441.0588235294126" y="790.0">io.netty.handler.codec.FixedLengthFrameDecoder</node>
+    <node x="26239.445698185285" y="1900.0">io.netty.example.spdy.server.SpdyServerInitializer</node>
+    <node x="25066.77474765542" y="1610.0">io.netty.bootstrap.BootstrapTest.DummyHandler</node>
+    <node x="22029.27474765542" y="1610.0">io.netty.handler.codec.protobuf.ProtobufDecoder</node>
+    <node x="32468.22237802718" y="1610.0">io.netty.handler.codec.marshalling.MarshallingEncoder</node>
+    <node x="1936.6588235294112" y="790.0">io.netty.handler.codec.haproxy.HAProxyMessageDecoder</node>
+    <node x="2446.199585355862" y="480.0">io.netty.example.proxy.HexDumpProxyFrontendHandler</node>
+    <node x="24328.34320237714" y="180.0">io.netty.channel.DefaultChannelPipelineTest.LifeCycleAwareTestHandler</node>
+    <node x="25963.445698185285" y="1900.0">io.netty.example.factorial.FactorialClientInitializer</node>
+    <node x="38031.273207013975" y="790.0">io.netty.handler.codec.http.HttpObjectEncoder</node>
+    <node x="26475.445698185285" y="1900.0">io.netty.example.securechat.SecureChatClientInitializer</node>
+    <node x="22126.67958025138" y="480.0">io.netty.channel.epoll.EpollSocketChannelTest.BuggyChannelHandler</node>
+    <node x="10336.44958535586" y="1610.0">io.netty.example.spdy.server.SpdyServerHandler</node>
+    <node x="2675.449585355862" y="1610.0">io.netty.handler.codec.ReplayingDecoderTest.LineDecoder</node>
+    <node x="22975.445698185285" y="1900.0">io.netty.example.telnet.TelnetServerInitializer</node>
+    <node x="37119.25280007955" y="1900.0">io.netty.handler.codec.http.HttpContentCompressor</node>
+    <node x="19833.906103587622" y="1610.0">io.netty.testsuite.transport.socket.SocketSslSessionReuseTest.ReadAndDiscardHandler</node>
+    <node x="3277.0588235294126" y="790.0">io.netty.handler.ssl.SniHandler</node>
+    <node x="29198.519765139677" y="480.0">io.netty.example.spdy.client.SpdyClientStreamIdHandler</node>
+    <node x="23503.445698185285" y="1900.0">io.netty.example.http.snoop.HttpSnoopClientInitializer</node>
+    <node x="20557.906103587622" y="1610.0">io.netty.testsuite.transport.socket.SocketSslClientRenegotiateTest.TestHandler</node>
+    <node x="24617.09320237714" y="790.0">io.netty.channel.ChannelHandler.Sharable</node>
+    <node x="19466.776727809018" y="790.0">io.netty.handler.codec.http.HttpContentDecoder</node>
+    <node x="14988.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketStartTlsTest.StartTlsClientHandler</node>
+    <node x="3266.199585355862" y="480.0">io.netty.example.socksproxy.RelayHandler</node>
+    <node x="21749.67958025138" y="480.0">io.netty.example.echo.EchoClientHandler</node>
+    <node x="9764.44958535586" y="1610.0">io.netty.testsuite.transport.udt.UDTClientServerConnectionTest.ServerHandler</node>
+    <node x="5035.44958535586" y="790.0">io.netty.handler.codec.spdy.SpdyOrHttpChooser</node>
+    <node x="17646.449585355862" y="480.0">io.netty.handler.codec.MessageToMessageDecoder</node>
+    <node x="15380.44958535586" y="1610.0">io.netty.example.securechat.SecureChatClientHandler</node>
+    <node x="24331.445698185285" y="1900.0">io.netty.example.http.helloworld.HttpHelloWorldServerInitializer</node>
+    <node x="4147.449585355862" y="790.0">io.netty.handler.codec.LengthFieldBasedFrameDecoder</node>
+    <node x="21954.67958025138" y="480.0">io.netty.channel.epoll.EpollSpliceTest.SpliceHandler</node>
+    <node x="20069.906103587622" y="1610.0">io.netty.example.socksproxy.SocksServerConnectHandler</node>
+    <node x="21804.27474765542" y="1610.0">io.netty.handler.codec.base64.Base64Decoder</node>
+    <node x="29384.97237802718" y="1900.0">io.netty.handler.traffic.GlobalChannelTrafficShapingHandler.ToSend</node>
+    <node x="27611.445698185285" y="1900.0">io.netty.example.socksproxy.SocksServerInitializer</node>
+    <node x="39250.48007280682" y="1900.0">io.netty.handler.codec.rtsp.RtspResponseEncoder</node>
+    <node x="35246.25280007955" y="1610.0">io.netty.handler.codec.spdy.SpdyHttpResponseStreamIdHandler</node>
+    <node x="35604.09320237714" y="790.0">io.netty.handler.timeout.IdleStateHandler</node>
+    <node x="5915.44958535586" y="1610.0">io.netty.handler.codec.http.HttpObjectDecoder.HeaderParser</node>
+    <node x="29017.519765139677" y="180.0">io.netty.channel.LoggingHandler</node>
+    <node x="10784.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketFixedLengthEchoTest.EchoHandler</node>
+    <node x="39977.23007280682" y="1900.0">io.netty.handler.codec.http.websocketx.WebSocket13FrameEncoder</node>
+    <node x="6888.44958535586" y="1610.0">io.netty.testsuite.transport.socket.SocketShutdownOutputBySelfTest.TestHandler</node>
+    <node x="3839.449585355862" y="1610.0">io.netty.handler.codec.socks.SocksInitRequestDecoder</node>
+    <node x="18010.449585355862" y="1610.0">io.netty.handler.codec.http.HttpContentDecompressor</node>
+    <node x="26826.17653571047" y="0.0">io.netty.channel.ChannelHandler</node>
+    <node x="30345.30006816998" y="790.0">io.netty.channel.AbstractEventLoopTest.TestChannelHandler</node>
+    <node x="25679.445698185285" y="1900.0">io.netty.example.worldclock.WorldClockServerInitializer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.netty.handler.codec.compression.JdkZlibDecoder" target="io.netty.handler.codec.compression.ZlibDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="1859.449585355862" y="1570.0" />
+      <point x="1550.0588235294126" y="1570.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.rtsp.RtspEncoder" target="io.netty.handler.codec.http.HttpObjectEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="39242.48007280682" y="1580.0" />
+      <point x="38146.273207013975" y="1580.0" />
+      <point x="23.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectDecoder.HeaderParser" target="io.netty.handler.codec.http.HttpObjectDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5987.44958535586" y="1580.0" />
+      <point x="5736.877871148459" y="1580.0" />
+      <point x="26.285714285717404" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketGatheringWriteTest.TestHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="15292.44958535586" y="1480.0" />
+      <point x="12698.144500610097" y="1480.0" />
+      <point x="53.69491525423655" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInitializer" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-48.0" y="-15.0" />
+      <point x="22893.77474765542" y="1370.0" />
+      <point x="21384.285963230104" y="1370.0" />
+      <point x="21384.285963230104" y="410.0" />
+      <point x="22004.65703216437" y="410.0" />
+      <point x="-28.93617021276623" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelOutboundHandlerAdapter" target="io.netty.channel.ChannelOutboundHandler">
+      <point x="70.0" y="-15.0" />
+      <point x="30484.040172074107" y="160.0" />
+      <point x="30533.540172074107" y="160.0" />
+      <point x="-42.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.rtsp.RtspResponseDecoder" target="io.netty.handler.codec.rtsp.RtspDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5731.44958535586" y="1880.0" />
+      <point x="5657.44958535586" y="1880.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpContentEncoder.State" target="io.netty.handler.codec.http.HttpContentEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="36899.25280007955" y="1850.0" />
+      <point x="35634.25280007955" y="1850.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.string.StringEncoder" target="io.netty.handler.codec.MessageToMessageEncoder">
+      <point x="38.0" y="-15.0" />
+      <point x="34262.22237802718" y="1580.0" />
+      <point x="36609.09320237714" y="1580.0" />
+      <point x="36609.09320237714" y="760.0" />
+      <point x="37895.43987368065" y="760.0" />
+      <point x="-25.777777777777374" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollReuseAddrTest.DummyHandler" target="io.netty.channel.ChannelHandlerAdapter">
+      <point x="36.0" y="-15.0" />
+      <point x="26901.27474765542" y="1560.0" />
+      <point x="28321.858741663542" y="1560.0" />
+      <point x="28321.858741663542" y="160.0" />
+      <point x="24546.59320237714" y="160.0" />
+      <point x="27.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ByteToMessageCodecTest.InvalidByteToMessageCodec" target="io.netty.handler.codec.ByteToMessageCodec">
+      <point x="62.0" y="-15.0" />
+      <point x="31754.22237802718" y="1470.0" />
+      <point x="32930.55006816998" y="1470.0" />
+      <point x="-64.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.MessageToByteEncoder" target="io.netty.channel.ChannelOutboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="34052.82279544271" y="580.0" />
+      <point x="32981.49510529991" y="580.0" />
+      <point x="32981.49510529991" y="460.0" />
+      <point x="30470.040172074107" y="460.0" />
+      <point x="56.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksAuthResponseDecoder.State" target="io.netty.handler.codec.socks.SocksAuthResponseDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest.MessageForwarder2" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="31990.55006816998" y="620.0" />
+      <point x="29993.67653571047" y="620.0" />
+      <point x="23.636363636363967" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.rxtx.RxtxClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="8976.44958535586" y="1430.0" />
+      <point x="12568.381788745692" y="1430.0" />
+      <point x="-76.06779661016844" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollReuseAddrTest.ServerSocketTestHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-58.0" y="-15.0" />
+      <point x="24107.77474765542" y="1340.0" />
+      <point x="22493.17958025138" y="1340.0" />
+      <point x="22493.17958025138" y="440.0" />
+      <point x="22050.954904504797" y="440.0" />
+      <point x="17.361702127660465" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.udt.echo.rendezvousBytes.ByteEchoPeerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="7144.44958535586" y="1350.0" />
+      <point x="12532.5851785762" y="1350.0" />
+      <point x="-111.86440677965948" y="15.0" />
+    </edge>
+    <edge source="io.netty.test.udt.util.EchoByteHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="24745.84320237714" y="320.0" />
+      <point x="22120.401713015435" y="320.0" />
+      <point x="86.80851063829869" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.objectecho.ObjectEchoClientHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="9672.69958535586" y="370.0" />
+      <point x="21981.508095994155" y="370.0" />
+      <point x="-52.085106382979575" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.FixedLengthFrameDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="2557.0588235294126" y="730.0" />
+      <point x="4486.273114767622" y="730.0" />
+      <point x="-61.17647058823786" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler.ServerHandshakeStateEvent" target="io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="18974.776727809018" y="1870.0" />
+      <point x="17496.449585355862" y="1870.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.telnet.TelnetServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="-50.0" y="-15.0" />
+      <point x="19451.906103587622" y="1350.0" />
+      <point x="12751.839415864333" y="1350.0" />
+      <point x="107.3898305084731" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.AbstractEventLoopTest.TestChannelHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="30441.30006816998" y="720.0" />
+      <point x="29899.13108116502" y="720.0" />
+      <point x="-70.90909090909008" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ByteToMessageCodec.Encoder" target="io.netty.handler.codec.ByteToMessageCodec">
+      <point x="-26.0" y="-15.0" />
+      <point x="35964.25280007955" y="950.0" />
+      <point x="33058.55006816998" y="950.0" />
+      <point x="64.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.DefaultChannelPipelineTest.BufferedTestHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="31237.30006816998" y="680.0" />
+      <point x="29936.949262983195" y="680.0" />
+      <point x="-33.09090909090992" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandshakeHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="7998.69958535586" y="320.0" />
+      <point x="21952.57192578139" y="320.0" />
+      <point x="-81.02127659574398" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.securechat.SecureChatClientInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="26607.445698185285" y="1740.0" />
+      <point x="22975.16605200325" y="1740.0" />
+      <point x="33.39130434782783" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.factorial.NumberEncoder" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="37882.25280007955" y="850.0" />
+      <point x="34147.36824998817" y="850.0" />
+      <point x="94.54545454545496" y="15.0" />
+    </edge>
+    <edge source="io.netty.test.udt.util.EchoMessageHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="8294.69958535586" y="330.0" />
+      <point x="21958.359159823944" y="330.0" />
+      <point x="-75.2340425531911" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksAuthRequestDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="2947.449585355862" y="1560.0" />
+      <point x="2269.458823529414" y="1560.0" />
+      <point x="8.80000000000291" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.marshalling.CompatibleMarshallingDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="2519.449585355862" y="1580.0" />
+      <point x="2234.2588235294097" y="1580.0" />
+      <point x="-26.400000000001455" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.cors.OkResponseHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="8772.44958535586" y="1420.0" />
+      <point x="12563.907212474505" y="1420.0" />
+      <point x="-80.54237288135482" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.objectecho.ObjectEchoServerHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="28195.358741663542" y="250.0" />
+      <point x="22160.91235131331" y="250.0" />
+      <point x="127.31914893617068" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.udt.UDTClientServerConnectionTest.ServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="9840.44958535586" y="1470.0" />
+      <point x="12586.280093830437" y="1470.0" />
+      <point x="-58.16949152542293" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.snoop.HttpSnoopClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="16472.449585355862" y="1420.0" />
+      <point x="12724.991958237215" y="1420.0" />
+      <point x="80.54237288135482" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInboundHandlerAdapter" target="io.netty.channel.ChannelHandlerAdapter">
+      <point x="68.0" y="-15.0" />
+      <point x="22101.59320237714" y="160.0" />
+      <point x="24438.59320237714" y="160.0" />
+      <point x="-81.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksInitRequestDecoder.State" target="io.netty.handler.codec.socks.SocksInitRequestDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.DefaultChannelPipeline.HeadContext" target="io.netty.channel.ChannelOutboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="36300.75280007955" y="140.0" />
+      <point x="30645.540172074107" y="140.0" />
+      <point x="70.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.telnet.TelnetClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="-50.0" y="-15.0" />
+      <point x="19231.906103587622" y="1360.0" />
+      <point x="12747.364839593147" y="1360.0" />
+      <point x="102.91525423728672" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="58.0" y="-15.0" />
+      <point x="1531.2588235294097" y="1590.0" />
+      <point x="2199.0588235294126" y="1590.0" />
+      <point x="-61.599999999998545" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.snoop.HttpSnoopClientInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="23631.445698185285" y="1850.0" />
+      <point x="22883.339965046725" y="1850.0" />
+      <point x="-58.43478260869597" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-84.0" y="-15.0" />
+      <point x="32196.22237802718" y="1110.0" />
+      <point x="24699.139714005043" y="1110.0" />
+      <point x="26.04651162790651" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.AbstractTrafficShapingHandler.ReopenReadTimerTask" target="io.netty.handler.traffic.AbstractTrafficShapingHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="34834.25280007955" y="1000.0" />
+      <point x="32481.55006816998" y="1000.0" />
+      <point x="35.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.GlobalChannelTrafficShapingHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-80.0" y="-15.0" />
+      <point x="31308.22237802718" y="1140.0" />
+      <point x="24691.325760516673" y="1140.0" />
+      <point x="18.232558139534376" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpRequestDecoder" target="io.netty.handler.codec.http.HttpObjectDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5439.44958535586" y="1580.0" />
+      <point x="5658.020728291314" y="1580.0" />
+      <point x="-52.57142857142753" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder.State" target="io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="1483.449585355862" y="1880.0" />
+      <point x="1473.2588235294097" y="1880.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.udt.echo.bytes.ByteEchoClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="6408.44958535586" y="1310.0" />
+      <point x="12514.686873491455" y="1310.0" />
+      <point x="-129.762711864405" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.ChannelTrafficShapingHandler.ToSend" target="io.netty.handler.traffic.ChannelTrafficShapingHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="36629.25280007955" y="1870.0" />
+      <point x="35090.25280007955" y="1870.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSpdyEchoTest.SpdyEchoTestClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="11944.44958535586" y="1570.0" />
+      <point x="12631.025856542301" y="1570.0" />
+      <point x="-13.423728813559137" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollReuseAddrTest.DatagramSocketTestHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-62.0" y="-15.0" />
+      <point x="25517.77474765542" y="1240.0" />
+      <point x="23920.352437798225" y="1240.0" />
+      <point x="23920.352437798225" y="340.0" />
+      <point x="22108.827244930326" y="340.0" />
+      <point x="75.2340425531911" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest.MessageForwarder3" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="30805.30006816998" y="700.0" />
+      <point x="29918.040172074107" y="700.0" />
+      <point x="-52.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.protobuf.ProtobufDecoder" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="-42.0" y="-15.0" />
+      <point x="22071.27474765542" y="1380.0" />
+      <point x="21131.776727809018" y="1380.0" />
+      <point x="21131.776727809018" y="680.0" />
+      <point x="17868.78291868919" y="680.0" />
+      <point x="106.33333333333212" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.udt.UDTClientServerConnectionTest.ClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="14648.44958535586" y="1510.0" />
+      <point x="12684.720771796538" y="1510.0" />
+      <point x="40.27118644067741" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.snoop.HttpSnoopServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="14284.44958535586" y="1530.0" />
+      <point x="12675.771619254165" y="1530.0" />
+      <point x="31.322033898304653" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.rtsp.RtspObjectEncoder" target="io.netty.handler.codec.http.HttpObjectEncoder">
+      <point x="46.0" y="-15.0" />
+      <point x="34470.97237802718" y="1590.0" />
+      <point x="38054.273207013975" y="1590.0" />
+      <point x="-69.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.GlobalTrafficShapingHandler.PerChannel" target="io.netty.handler.traffic.GlobalTrafficShapingHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="29019.97237802718" y="1850.0" />
+      <point x="31010.22237802718" y="1850.0" />
+      <point x="-66.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketObjectEchoTest.EchoHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="22414.67958025138" y="450.0" />
+      <point x="22045.167670462244" y="450.0" />
+      <point x="11.574468085105764" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.DefaultChannelPipelineTest.TestHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="34.0" y="-15.0" />
+      <point x="30432.47237802718" y="1420.0" />
+      <point x="31503.80006816998" y="1420.0" />
+      <point x="31503.80006816998" y="660.0" />
+      <point x="29955.85835389229" y="660.0" />
+      <point x="-14.181818181818016" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ssl.SslHandler" target="io.netty.channel.ChannelOutboundHandler">
+      <point x="32.0" y="-15.0" />
+      <point x="22686.92958025138" y="760.0" />
+      <point x="32992.49510529991" y="760.0" />
+      <point x="32992.49510529991" y="160.0" />
+      <point x="30589.540172074107" y="160.0" />
+      <point x="14.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.echo.EchoServerHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-46.0" y="-15.0" />
+      <point x="26005.77474765542" y="1200.0" />
+      <point x="24675.697853539925" y="1200.0" />
+      <point x="2.6046511627901054" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.serialization.CompatibleObjectEncoder" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="37294.25280007955" y="880.0" />
+      <point x="34090.64097726089" y="880.0" />
+      <point x="37.81818181818198" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.compression.JdkZlibDecoder.GzipState" target="io.netty.handler.codec.compression.JdkZlibDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksAuthResponseDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="3699.449585355862" y="1530.0" />
+      <point x="2322.2588235294097" y="1530.0" />
+      <point x="61.599999999998545" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.CombinedChannelDuplexHandler" target="io.netty.channel.ChannelOutboundHandler">
+      <point x="90.66666666666606" y="-15.0" />
+      <point x="29879.96673483665" y="770.0" />
+      <point x="33003.49510529991" y="770.0" />
+      <point x="33003.49510529991" y="150.0" />
+      <point x="30617.540172074107" y="150.0" />
+      <point x="42.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.factorial.FactorialClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="8172.44958535586" y="1390.0" />
+      <point x="12550.483483660946" y="1390.0" />
+      <point x="-93.96610169491396" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.sctp.SctpEchoServerHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="54.0" y="-15.0" />
+      <point x="25885.77474765542" y="1210.0" />
+      <point x="24673.09320237714" y="1210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectDecoder.State" target="io.netty.handler.codec.http.HttpObjectDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5279.44958535586" y="1570.0" />
+      <point x="5631.735014005597" y="1570.0" />
+      <point x="-78.85714285714494" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket13FrameEncoder" target="io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="40093.23007280682" y="1880.0" />
+      <point x="40025.23007280682" y="1880.0" />
+      <point x="58.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.bootstrap.BootstrapTest.DummyHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="36.0" y="-15.0" />
+      <point x="25174.77474765542" y="1270.0" />
+      <point x="24665.279248888764" y="1270.0" />
+      <point x="-7.813953488372135" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.timeout.WriteTimeoutHandler" target="io.netty.channel.ChannelOutboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalChannelTest.TestHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="27243.358741663542" y="290.0" />
+      <point x="22137.763415143094" y="290.0" />
+      <point x="104.17021276595733" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdyHttpDecoder" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="19258.776727809018" y="730.0" />
+      <point x="17772.116252022526" y="730.0" />
+      <point x="9.66666666666788" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.discard.DiscardServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="10040.44958535586" y="1480.0" />
+      <point x="12590.754670101624" y="1480.0" />
+      <point x="-53.69491525423655" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.proxy.HexDumpProxyFrontendHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="2578.199585355862" y="250.0" />
+      <point x="21912.06128748352" y="250.0" />
+      <point x="-121.5319148936178" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ByteToMessageDecoder.Cumulator" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="4955.44958535586" y="760.0" />
+      <point x="4571.920173591154" y="760.0" />
+      <point x="24.47058823529369" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketStartTlsTest.StartTlsServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="12848.44958535586" y="1590.0" />
+      <point x="12648.924161627046" y="1590.0" />
+      <point x="4.474576271186379" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.LineBasedFrameDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.logging.LoggingHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="40.0" y="-15.0" />
+      <point x="30606.47237802718" y="1430.0" />
+      <point x="31677.80006816998" y="1430.0" />
+      <point x="31677.80006816998" y="640.0" />
+      <point x="29974.76744480138" y="640.0" />
+      <point x="4.727272727272066" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.DefaultChannelPipeline.TailContext" target="io.netty.channel.ChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="68.0" y="140.0" />
+      <point x="1381.6159268784686" y="140.0" />
+      <point x="-86.39999999999964" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest3.EventForwarder" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="40.0" y="-15.0" />
+      <point x="30786.47237802718" y="1440.0" />
+      <point x="31857.80006816998" y="1440.0" />
+      <point x="31857.80006816998" y="630.0" />
+      <point x="29984.221990255923" y="630.0" />
+      <point x="14.181818181818016" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.spdy.server.SpdyServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="10428.44958535586" y="1500.0" />
+      <point x="12599.703822643996" y="1500.0" />
+      <point x="-44.74576271186379" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="84.0" y="-15.0" />
+      <point x="32364.22237802718" y="1490.0" />
+      <point x="33958.27734089726" y="1490.0" />
+      <point x="-94.54545454545496" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.discard.DiscardClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="11540.44958535586" y="1550.0" />
+      <point x="12622.076703999928" y="1550.0" />
+      <point x="-22.372881355931895" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.bytes.ByteArrayEncoder" target="io.netty.handler.codec.MessageToMessageEncoder">
+      <point x="44.0" y="-15.0" />
+      <point x="33896.22237802718" y="1560.0" />
+      <point x="36415.09320237714" y="1560.0" />
+      <point x="36415.09320237714" y="740.0" />
+      <point x="37843.884318125085" y="740.0" />
+      <point x="-77.33333333333212" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelHandlerAdapter" target="io.netty.channel.ChannelHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="24519.59320237714" y="60.0" />
+      <point x="26886.17653571047" y="60.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollSocketChannelTest.BuggyChannelHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="22226.67958025138" y="460.0" />
+      <point x="22039.38043641969" y="460.0" />
+      <point x="5.787234042552882" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpContentEncoderTest.TestEncoder" target="io.netty.handler.codec.http.HttpContentEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="37031.25280007955" y="1840.0" />
+      <point x="35682.25280007955" y="1840.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.ChannelTrafficShapingHandler" target="io.netty.handler.traffic.AbstractTrafficShapingHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="35090.25280007955" y="990.0" />
+      <point x="32551.55006816998" y="990.0" />
+      <point x="105.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket00FrameDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="58.0" y="-15.0" />
+      <point x="496.0" y="1580.0" />
+      <point x="2181.458823529414" y="1580.0" />
+      <point x="-79.19999999999709" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketClientProtocolHandler.ClientHandshakeStateEvent" target="io.netty.handler.codec.http.websocketx.WebSocketClientProtocolHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="19282.776727809018" y="1860.0" />
+      <point x="17804.449585355862" y="1860.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.protobuf.ProtobufEncoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-42.0" y="-15.0" />
+      <point x="34002.22237802718" y="1030.0" />
+      <point x="24719.976923307368" y="1030.0" />
+      <point x="46.88372093023281" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.DatagramMulticastTest.MulticastTestHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="12444.44958535586" y="1590.0" />
+      <point x="12639.975009084674" y="1590.0" />
+      <point x="-4.474576271186379" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.ServerSocketSuspendTest.AcceptedChannelCounter" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="56.0" y="-15.0" />
+      <point x="23670.77474765542" y="1570.0" />
+      <point x="24652.25599307481" y="1570.0" />
+      <point x="-20.8372093023263" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket00FrameDecoder" target="io.netty.handler.codec.http.websocketx.WebSocketFrameDecoder">
+      <point x="-58.0" y="-15.0" />
+      <point x="380.0" y="1590.0" />
+      <point x="452.0" y="1590.0" />
+      <point x="-54.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.MessageToMessageEncoder" target="io.netty.channel.ChannelOutboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="37921.21765145842" y="450.0" />
+      <point x="30526.040172074107" y="450.0" />
+      <point x="112.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.compression.SnappyFramedEncoder" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="37686.25280007955" y="860.0" />
+      <point x="34128.45915907907" y="860.0" />
+      <point x="75.63636363636397" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksInitResponseDecoder.State" target="io.netty.handler.codec.socks.SocksInitResponseDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpRequest" target="io.netty.handler.codec.http.HttpObjectAggregator">
+      <point x="62.0" y="-15.0" />
+      <point x="20105.360061142346" y="1820.0" />
+      <point x="18560.699585355862" y="1820.0" />
+      <point x="18560.699585355862" y="1430.0" />
+      <point x="21086.610061142354" y="1430.0" />
+      <point x="69.33333333333576" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdyOrHttpChooser" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5127.44958535586" y="750.0" />
+      <point x="4584.155467708804" y="750.0" />
+      <point x="36.70588235294417" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.file.HttpStaticFileServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="11284.44958535586" y="1540.0" />
+      <point x="12617.602127728742" y="1540.0" />
+      <point x="-26.847457627118274" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.CombinedChannelDuplexHandler" target="io.netty.channel.ChannelInboundHandler">
+      <point x="-90.66666666666606" y="-15.0" />
+      <point x="29698.633401503314" y="660.0" />
+      <point x="157.5" y="660.0" />
+      <point x="157.5" y="160.0" />
+      <point x="1468.01592687847" y="160.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.TrafficShapingHandlerTest.ServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.TrafficShapingHandlerTest.ClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="16264.44958535586" y="1430.0" />
+      <point x="12720.517381966029" y="1430.0" />
+      <point x="76.06779661016844" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ByteToMessageCodecTest.InvalidByteToMessageCodec2" target="io.netty.handler.codec.ByteToMessageCodec">
+      <point x="64.0" y="-15.0" />
+      <point x="32028.22237802718" y="1480.0" />
+      <point x="32994.55006816998" y="1480.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.bootstrap.ServerBootstrap.ServerBootstrapAcceptor" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="23793.852437798225" y="350.0" />
+      <point x="22103.040010887773" y="350.0" />
+      <point x="69.44680851063822" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdySessionHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="36208.09320237714" y="530.0" />
+      <point x="30069.312899346834" y="530.0" />
+      <point x="99.27272727272793" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdySessionHandler.ClosingChannelFutureListener" target="io.netty.handler.codec.spdy.SpdySessionHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="37022.25280007955" y="890.0" />
+      <point x="36208.09320237714" y="890.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollReuseAddrTest.ServerSocketTestHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="58.0" y="-15.0" />
+      <point x="24223.77474765542" y="1580.0" />
+      <point x="24654.860644237604" y="1580.0" />
+      <point x="-18.232558139534376" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.compression.ZlibEncoder" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="37498.25280007955" y="870.0" />
+      <point x="34109.55006816998" y="870.0" />
+      <point x="56.727272727272975" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.socksproxy.SocksServerConnectHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="-62.0" y="-15.0" />
+      <point x="20131.906103587622" y="1320.0" />
+      <point x="12765.263144677892" y="1320.0" />
+      <point x="120.81355932203223" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpRequest" target="io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpMessage">
+      <point x="-62.0" y="-15.0" />
+      <point x="19981.360061142346" y="1830.0" />
+      <point x="18488.199585355862" y="1830.0" />
+      <point x="62.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketStartTlsTest.StartTlsClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="15096.44958535586" y="1490.0" />
+      <point x="12693.66992433891" y="1490.0" />
+      <point x="49.22033898305017" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.spdy.server.SpdyServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="26347.445698185285" y="1750.0" />
+      <point x="22966.81822591629" y="1750.0" />
+      <point x="25.04347826086814" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.marshalling.MarshallingEncoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-48.0" y="-15.0" />
+      <point x="32516.22237802718" y="1100.0" />
+      <point x="24701.744365167833" y="1100.0" />
+      <point x="28.651162790698436" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.MessageToMessageDecoder" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="17762.449585355862" y="400.0" />
+      <point x="21998.869798121817" y="400.0" />
+      <point x="-34.72340425531911" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.WriteBeforeRegisteredTest.TestHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="2798.199585355862" y="260.0" />
+      <point x="21917.848521526073" y="260.0" />
+      <point x="-115.7446808510631" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpClientCodec.Decoder" target="io.netty.handler.codec.http.HttpClientCodec">
+      <point x="26.0" y="-15.0" />
+      <point x="7513.479512312646" y="1880.0" />
+      <point x="26999.27474765542" y="1880.0" />
+      <point x="-42.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.udt.echo.rendezvous.MsgEchoPeerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="11036.44958535586" y="1530.0" />
+      <point x="12613.127551457555" y="1530.0" />
+      <point x="-31.322033898304653" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdyHttpEncoder" target="io.netty.handler.codec.MessageToMessageEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="37604.773207013975" y="770.0" />
+      <point x="37921.21765145842" y="770.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.udt.echo.bytes.ByteEchoServerHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-54.0" y="-15.0" />
+      <point x="24865.77474765542" y="1300.0" />
+      <point x="23268.352437798225" y="1300.0" />
+      <point x="23268.352437798225" y="390.0" />
+      <point x="22079.89107471756" y="390.0" />
+      <point x="46.297872340424874" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdyHttpResponseStreamIdHandler" target="io.netty.handler.codec.MessageToMessageCodec">
+      <point x="0.0" y="-15.0" />
+      <point x="35394.25280007955" y="980.0" />
+      <point x="34953.09320237714" y="980.0" />
+      <point x="-54.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ssl.SslHandler.LazyChannelPromise" target="io.netty.handler.ssl.SslHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="22313.27474765542" y="1430.0" />
+      <point x="22654.92958025138" y="1430.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ByteToMessageCodec" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="32994.55006816998" y="590.0" />
+      <point x="30022.040172074107" y="590.0" />
+      <point x="52.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest.ThreadNameAuditor" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="32194.55006816998" y="610.0" />
+      <point x="30003.13108116502" y="610.0" />
+      <point x="33.09090909090992" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.file.HttpStaticFileServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="25511.445698185285" y="1780.0" />
+      <point x="22941.77474765542" y="1780.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest2.LocalHander" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="34.0" y="-15.0" />
+      <point x="25332.77474765542" y="1250.0" />
+      <point x="24667.883900051555" y="1250.0" />
+      <point x="-5.20930232558203" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectAggregator" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="21017.276727809018" y="690.0" />
+      <point x="17849.449585355862" y="690.0" />
+      <point x="87.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketShutdownOutputByPeerTest.TestHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="11732.44958535586" y="1560.0" />
+      <point x="12626.551280271115" y="1560.0" />
+      <point x="-17.898305084745516" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.DefaultChannelPipelineTest.StringInboundHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="27435.358741663542" y="280.0" />
+      <point x="22143.550649185647" y="280.0" />
+      <point x="109.95744680851021" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpServerCodec" target="io.netty.channel.CombinedChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="28766.639044693846" y="1580.0" />
+      <point x="29789.30006816998" y="1580.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.worldclock.WorldClockClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="9628.44958535586" y="1460.0" />
+      <point x="12581.80551755925" y="1460.0" />
+      <point x="-62.644067796609306" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="2829.0588235294126" y="740.0" />
+      <point x="4498.508408885273" y="740.0" />
+      <point x="-48.94117647058738" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.GlobalTrafficShapingHandler.ToSend" target="io.netty.handler.traffic.GlobalTrafficShapingHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="29151.97237802718" y="1860.0" />
+      <point x="31142.22237802718" y="1860.0" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslEchoTest.EchoHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="-34.0" y="-15.0" />
+      <point x="18695.699585355862" y="1370.0" />
+      <point x="12742.89026332196" y="1370.0" />
+      <point x="98.44067796610034" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollSocketChannelTest.ExceptionHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="23169.852437798225" y="400.0" />
+      <point x="22074.10384067501" y="400.0" />
+      <point x="40.51063829787199" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder" target="io.netty.handler.codec.http.websocketx.WebSocketFrameDecoder">
+      <point x="-58.0" y="-15.0" />
+      <point x="1415.2588235294097" y="1570.0" />
+      <point x="560.0" y="1570.0" />
+      <point x="54.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ssl.SSLEngineTest.MessageDelegatorChannelHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="13708.44958535586" y="1550.0" />
+      <point x="12666.822466711792" y="1550.0" />
+      <point x="22.372881355931895" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksInitRequestDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="3955.449585355862" y="1520.0" />
+      <point x="2339.8588235294083" y="1520.0" />
+      <point x="79.19999999999709" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSpdyEchoTest.SpdyEchoTestServerHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="9412.69958535586" y="360.0" />
+      <point x="21975.720861951602" y="360.0" />
+      <point x="-57.87234042553246" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.AbstractEventLoopTest.TestChannelHandler2" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="31017.30006816998" y="690.0" />
+      <point x="29927.49471752865" y="690.0" />
+      <point x="-42.54545454545405" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.factorial.FactorialServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="15744.44958535586" y="1460.0" />
+      <point x="12707.09365315247" y="1460.0" />
+      <point x="62.644067796609306" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.spdy.client.SpdyClientStreamIdHandler" target="io.netty.channel.ChannelOutboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="29322.519765139677" y="450.0" />
+      <point x="30302.040172074107" y="450.0" />
+      <point x="-112.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ipfilter.AbstractRemoteAddressFilter" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="23008.352437798225" y="410.0" />
+      <point x="22068.316606632456" y="410.0" />
+      <point x="34.72340425531911" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.factorial.FactorialClientInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="26091.445698185285" y="1760.0" />
+      <point x="22958.470399829333" y="1760.0" />
+      <point x="16.695652173912094" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.spdy.client.SpdyClientInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="28215.445698185285" y="1680.0" />
+      <point x="23025.253008524985" y="1680.0" />
+      <point x="83.47826086956411" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.localecho.LocalEchoServerHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="22665.852437798225" y="430.0" />
+      <point x="22056.74213854735" y="430.0" />
+      <point x="23.148936170213346" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketEchoTest.EchoHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="13272.44958535586" y="1570.0" />
+      <point x="12657.87331416942" y="1570.0" />
+      <point x="13.423728813559137" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.serialization.ObjectDecoder" target="io.netty.handler.codec.LengthFieldBasedFrameDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="4379.449585355862" y="1590.0" />
+      <point x="4351.449585355862" y="1590.0" />
+      <point x="68.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.stream.ChunkedWriteHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="35320.09320237714" y="560.0" />
+      <point x="30040.949262983195" y="560.0" />
+      <point x="70.90909090909008" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelDuplexHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-52.0" y="-15.0" />
+      <point x="29918.040172074107" y="240.0" />
+      <point x="22166.699585355862" y="240.0" />
+      <point x="133.10638297872356" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.sctp.SctpEchoClientHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="27951.358741663542" y="260.0" />
+      <point x="22155.125117270756" y="260.0" />
+      <point x="121.5319148936178" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest.MessageDiscarder" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="30033.30006816998" y="740.0" />
+      <point x="29880.221990255923" y="740.0" />
+      <point x="-89.81818181818198" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketFixedLengthEchoTest.EchoHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="10852.44958535586" y="1520.0" />
+      <point x="12608.652975186369" y="1520.0" />
+      <point x="-35.79661016949103" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.compression.SnappyFramedDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="4775.44958535586" y="770.0" />
+      <point x="4559.684879473511" y="770.0" />
+      <point x="12.235294117650483" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInitializer" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="48.0" y="-15.0" />
+      <point x="22989.77474765542" y="1550.0" />
+      <point x="24647.04669074923" y="1550.0" />
+      <point x="-26.04651162790651" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpClientCodec.Encoder" target="io.netty.handler.codec.http.HttpRequestEncoder">
+      <point x="26.0" y="-15.0" />
+      <point x="33305.72237802718" y="1880.0" />
+      <point x="38524.48007280682" y="1880.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.base64.Base64Encoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-38.0" y="-15.0" />
+      <point x="33630.22237802718" y="1050.0" />
+      <point x="24714.767620981787" y="1050.0" />
+      <point x="41.67441860465078" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ipfilter.UniqueIpFilter" target="io.netty.handler.ipfilter.AbstractRemoteAddressFilter">
+      <point x="-40.0" y="-15.0" />
+      <point x="24671.77474765542" y="1320.0" />
+      <point x="23074.352437798225" y="1320.0" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksMessageEncoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-50.0" y="-15.0" />
+      <point x="32730.22237802718" y="1090.0" />
+      <point x="24704.349016330627" y="1090.0" />
+      <point x="31.25581395348854" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket00FrameEncoder" target="io.netty.handler.codec.MessageToMessageEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="39715.23007280682" y="750.0" />
+      <point x="37998.55098479176" y="750.0" />
+      <point x="77.33333333333212" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.securechat.SecureChatServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="27175.445698185285" y="1720.0" />
+      <point x="22991.86170417716" y="1720.0" />
+      <point x="50.08695652173992" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectDecoder.LineParser" target="io.netty.handler.codec.http.HttpObjectDecoder">
+      <point x="32.0" y="-15.0" />
+      <point x="6060.69958535586" y="1880.0" />
+      <point x="6069.94958535586" y="1880.0" />
+      <point x="6069.94958535586" y="1570.0" />
+      <point x="5763.163585434169" y="1570.0" />
+      <point x="52.57142857142753" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.proxy.HexDumpProxyInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="27971.445698185285" y="1690.0" />
+      <point x="23016.90518243803" y="1690.0" />
+      <point x="75.13043478260806" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder" target="io.netty.handler.codec.MessageToMessageEncoder">
+      <point x="-58.0" y="-15.0" />
+      <point x="39909.23007280682" y="1580.0" />
+      <point x="39880.98007280682" y="1580.0" />
+      <point x="39880.98007280682" y="740.0" />
+      <point x="38024.32876256953" y="740.0" />
+      <point x="103.1111111111095" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslSessionReuseTest.ReadAndDiscardHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="-54.0" y="-15.0" />
+      <point x="19887.906103587622" y="1330.0" />
+      <point x="12760.788568406706" y="1330.0" />
+      <point x="116.33898305084585" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5710.592156862742" y="730.0" />
+      <point x="4608.626055944098" y="730.0" />
+      <point x="61.17647058823786" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.haproxy.HAProxyMessageDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="2044.6588235294112" y="710.0" />
+      <point x="4461.802526532329" y="710.0" />
+      <point x="-85.64705882353155" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.securechat.SecureChatServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="16972.449585355862" y="1400.0" />
+      <point x="12733.941110779588" y="1400.0" />
+      <point x="89.49152542372758" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.rtsp.RtspRequestEncoder" target="io.netty.handler.codec.rtsp.RtspEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="39134.48007280682" y="1880.0" />
+      <point x="39208.48007280682" y="1880.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.socksproxy.SocksServerConnectHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="62.0" y="-15.0" />
+      <point x="20255.906103587622" y="1490.0" />
+      <point x="24631.418783772486" y="1490.0" />
+      <point x="-41.67441860465078" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.GlobalTrafficShapingHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-66.0" y="-15.0" />
+      <point x="31010.22237802718" y="1150.0" />
+      <point x="24688.72110935388" y="1150.0" />
+      <point x="15.62790697674427" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksMessageEncoder" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="50.0" y="-15.0" />
+      <point x="32830.22237802718" y="1510.0" />
+      <point x="33996.09552271543" y="1510.0" />
+      <point x="-56.727272727272975" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpResponse" target="io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpMessage">
+      <point x="64.0" y="-15.0" />
+      <point x="19835.360061142346" y="1840.0" />
+      <point x="18364.199585355862" y="1840.0" />
+      <point x="-62.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketAutoReadTest.ServerTestHandler" target="io.netty.testsuite.transport.socket.SocketAutoReadTest.TestHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.string.StringDecoder" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="-38.0" y="-15.0" />
+      <point x="21670.27474765542" y="1400.0" />
+      <point x="20811.276727809018" y="1400.0" />
+      <point x="20811.276727809018" y="710.0" />
+      <point x="17810.78291868919" y="710.0" />
+      <point x="48.33333333333212" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketFrameAggregator" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="15448.44958535586" y="730.0" />
+      <point x="17714.116252022526" y="730.0" />
+      <point x="-48.33333333333212" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest2.LocalHander" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-34.0" y="-15.0" />
+      <point x="25264.77474765542" y="1260.0" />
+      <point x="23667.352437798225" y="1260.0" />
+      <point x="23667.352437798225" y="360.0" />
+      <point x="22097.25277684522" y="360.0" />
+      <point x="63.65957446808534" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.LoggingHandler" target="io.netty.channel.ChannelInboundHandler">
+      <point x="-40.0" y="-15.0" />
+      <point x="29057.519765139677" y="150.0" />
+      <point x="1554.4159268784715" y="150.0" />
+      <point x="86.39999999999964" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdyHttpCodec" target="io.netty.channel.CombinedChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="28946.639044693846" y="1590.0" />
+      <point x="29879.96673483665" y="1590.0" />
+      <point x="90.66666666666606" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.spdy.client.SpdyFrameLogger" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="36000.09320237714" y="540.0" />
+      <point x="30059.85835389229" y="540.0" />
+      <point x="89.81818181818198" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.telnet.TelnetClientHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="50.0" y="-15.0" />
+      <point x="19331.906103587622" y="1450.0" />
+      <point x="24621.00017912132" y="1450.0" />
+      <point x="-52.09302325581484" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.uptime.UptimeClientHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="50.0" y="-15.0" />
+      <point x="20487.906103587622" y="1500.0" />
+      <point x="24634.023434935276" y="1500.0" />
+      <point x="-39.06976744186068" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.base64.Base64Decoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="38.0" y="-15.0" />
+      <point x="21918.27474765542" y="1530.0" />
+      <point x="24641.83738842365" y="1530.0" />
+      <point x="-31.25581395348854" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.GlobalChannelTrafficShapingHandler.PerChannel" target="io.netty.handler.traffic.GlobalChannelTrafficShapingHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="29300.97237802718" y="1870.0" />
+      <point x="31308.22237802718" y="1870.0" />
+      <point x="-80.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.proxy.HexDumpProxyBackendHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="27027.358741663542" y="300.0" />
+      <point x="22131.97618110054" y="300.0" />
+      <point x="98.38297872340445" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksCmdRequestDecoder.State" target="io.netty.handler.codec.socks.SocksCmdRequestDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.websocketx.benchmarkserver.WebSocketServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="24183.445698185285" y="1830.0" />
+      <point x="22900.035617220638" y="1830.0" />
+      <point x="-41.739130434783874" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.marshalling.CompatibleMarshallingEncoder" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="68.0" y="-15.0" />
+      <point x="33504.22237802718" y="1540.0" />
+      <point x="34052.82279544271" y="1540.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.upload.HttpUploadClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="7924.44958535586" y="1380.0" />
+      <point x="12546.00890738976" y="1380.0" />
+      <point x="-98.44067796610034" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.string.StringDecoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="38.0" y="-15.0" />
+      <point x="21746.27474765542" y="1520.0" />
+      <point x="24639.232737260856" y="1520.0" />
+      <point x="-33.86046511627865" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ByteToMessageCodecTest.InvalidByteToMessageCodec2" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-64.0" y="-15.0" />
+      <point x="31900.22237802718" y="1120.0" />
+      <point x="24696.535062842253" y="1120.0" />
+      <point x="23.441860465116406" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket07FrameDecoder" target="io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="1303.449585355862" y="1880.0" />
+      <point x="1395.925490196074" y="1880.0" />
+      <point x="-77.33333333333576" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.echo.EchoClientHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="21841.67958025138" y="440.0" />
+      <point x="22022.018734292033" y="440.0" />
+      <point x="-11.574468085105764" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollReuseAddrTest.DummyHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-36.0" y="-15.0" />
+      <point x="26829.27474765542" y="1190.0" />
+      <point x="24678.30250470272" y="1190.0" />
+      <point x="5.20930232558203" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.serialization.ObjectEncoder" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="38.0" y="-15.0" />
+      <point x="33242.22237802718" y="1530.0" />
+      <point x="34033.91370453362" y="1530.0" />
+      <point x="-18.90909090909099" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.ServerSocketSuspendTest.AcceptedChannelCounter" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-56.0" y="-15.0" />
+      <point x="23558.77474765542" y="1350.0" />
+      <point x="21944.17958025138" y="1350.0" />
+      <point x="21944.17958025138" y="450.0" />
+      <point x="22027.805968334585" y="450.0" />
+      <point x="-5.787234042552882" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslGreetingTest.ServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="10240.44958535586" y="1490.0" />
+      <point x="12595.22924637281" y="1490.0" />
+      <point x="-49.22033898305017" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.SimpleChannelInboundHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="12644.44958535586" y="390.0" />
+      <point x="21993.082564079265" y="390.0" />
+      <point x="-40.51063829787199" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.compression.JZlibDecoder" target="io.netty.handler.codec.compression.ZlibDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="2031.449585355862" y="1560.0" />
+      <point x="1618.0588235294126" y="1560.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpResponseDecoder" target="io.netty.handler.codec.http.HttpObjectDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="6180.44958535586" y="1560.0" />
+      <point x="5789.449299719887" y="1560.0" />
+      <point x="78.85714285714494" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksCmdResponseDecoder.State" target="io.netty.handler.codec.socks.SocksCmdResponseDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.sctp.SctpOutboundByteStreamHandler" target="io.netty.handler.codec.MessageToMessageEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="38375.273207013975" y="760.0" />
+      <point x="37972.773207013975" y="760.0" />
+      <point x="51.55555555555566" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksCmdResponseDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="3443.449585355862" y="1540.0" />
+      <point x="2304.658823529411" y="1540.0" />
+      <point x="44.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpContentEncoder" target="io.netty.handler.codec.MessageToMessageCodec">
+      <point x="0.0" y="-15.0" />
+      <point x="35658.25280007955" y="970.0" />
+      <point x="35061.09320237714" y="970.0" />
+      <point x="54.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpClientCodec.Encoder" target="io.netty.handler.codec.http.HttpClientCodec">
+      <point x="-26.0" y="-15.0" />
+      <point x="33253.72237802718" y="1660.0" />
+      <point x="27083.27474765542" y="1660.0" />
+      <point x="42.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.MessageToMessageCodec" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="35007.09320237714" y="570.0" />
+      <point x="30031.49471752865" y="570.0" />
+      <point x="61.45454545454595" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.string.StringEncoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-38.0" y="-15.0" />
+      <point x="34186.22237802718" y="1020.0" />
+      <point x="24722.58157447016" y="1020.0" />
+      <point x="49.48837209302292" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.sctp.SctpEchoTest.EchoHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="14484.44958535586" y="1520.0" />
+      <point x="12680.246195525351" y="1520.0" />
+      <point x="35.79661016949103" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpMessage" target="io.netty.handler.codec.http.HttpObjectAggregator">
+      <point x="0.0" y="-15.0" />
+      <point x="18426.199585355862" y="1420.0" />
+      <point x="21017.276727809018" y="1420.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.base64.Base64Decoder" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="-38.0" y="-15.0" />
+      <point x="21842.27474765542" y="1390.0" />
+      <point x="20902.776727809018" y="1390.0" />
+      <point x="20902.776727809018" y="700.0" />
+      <point x="17830.116252022526" y="700.0" />
+      <point x="67.66666666666788" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksInitResponseDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="2243.449585355862" y="1590.0" />
+      <point x="2216.658823529411" y="1590.0" />
+      <point x="-44.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollSpliceTest.EchoHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="6604.44958535586" y="1320.0" />
+      <point x="12519.161449762641" y="1320.0" />
+      <point x="-125.28813559321861" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.snoop.HttpSnoopServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="24775.445698185285" y="1810.0" />
+      <point x="22916.731269394553" y="1810.0" />
+      <point x="-25.04347826086814" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectAggregator.AggregatedFullHttpResponse" target="io.netty.handler.codec.http.HttpObjectAggregator">
+      <point x="-64.0" y="-15.0" />
+      <point x="19707.360061142346" y="1850.0" />
+      <point x="18252.949585355862" y="1850.0" />
+      <point x="18252.949585355862" y="1410.0" />
+      <point x="20947.943394475682" y="1410.0" />
+      <point x="-69.33333333333576" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.LoggingHandler" target="io.netty.channel.ChannelOutboundHandler">
+      <point x="40.0" y="-15.0" />
+      <point x="29137.519765139677" y="140.0" />
+      <point x="30477.540172074107" y="140.0" />
+      <point x="-98.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.websocketx.server.WebSocketServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="7376.44958535586" y="1360.0" />
+      <point x="12537.059754847387" y="1360.0" />
+      <point x="-107.3898305084731" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket13FrameDecoder" target="io.netty.handler.codec.http.websocketx.WebSocket08FrameDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="1663.449585355862" y="1880.0" />
+      <point x="1550.5921568627455" y="1880.0" />
+      <point x="77.33333333333576" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelOutboundHandler" target="io.netty.channel.ChannelHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="30575.540172074107" y="50.0" />
+      <point x="26966.17653571047" y="50.0" />
+      <point x="60.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.embedded.EmbeddedChannel.LastInboundHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="3526.199585355862" y="290.0" />
+      <point x="21935.210223653732" y="290.0" />
+      <point x="-98.38297872340445" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ipfilter.RuleBasedIpFilter" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="46.0" y="-15.0" />
+      <point x="24565.77474765542" y="1590.0" />
+      <point x="24657.46529540039" y="1590.0" />
+      <point x="-15.62790697674427" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.timeout.IdleStateHandler.WriterIdleTimeoutTask" target="io.netty.handler.timeout.IdleStateHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="36382.25280007955" y="920.0" />
+      <point x="35692.09320237714" y="920.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInboundHandler" target="io.netty.channel.ChannelHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="1468.01592687847" y="50.0" />
+      <point x="26846.17653571047" y="50.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.upload.HttpUploadServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="26891.445698185285" y="1730.0" />
+      <point x="22983.513878090205" y="1730.0" />
+      <point x="41.739130434783874" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.upload.HttpUploadClientIntializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="23907.445698185285" y="1840.0" />
+      <point x="22891.68779113368" y="1840.0" />
+      <point x="-50.08695652173992" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdyOrHttpChooser.SelectedProtocol" target="io.netty.handler.codec.spdy.SpdyOrHttpChooser">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ReplayingDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="2260.658823529411" y="720.0" />
+      <point x="4474.037820649979" y="720.0" />
+      <point x="-73.41176470588107" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketAutoReadTest.TestHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="236.0" y="230.0" />
+      <point x="21900.486819398415" y="230.0" />
+      <point x="-133.10638297872356" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.bytes.ByteArrayDecoder" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="15220.44958535586" y="720.0" />
+      <point x="17694.78291868919" y="720.0" />
+      <point x="-67.66666666666788" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.LoggingHandler.Event" target="io.netty.channel.LoggingHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslGreetingTest.ClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="8380.44958535586" y="1400.0" />
+      <point x="12554.958059932133" y="1400.0" />
+      <point x="-89.49152542372758" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.localecho.LocalEchoClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="14856.44958535586" y="1500.0" />
+      <point x="12689.195348067724" y="1500.0" />
+      <point x="44.74576271186379" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.qotm.QuoteOfTheMomentClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="14012.44958535586" y="1540.0" />
+      <point x="12671.297042982978" y="1540.0" />
+      <point x="26.847457627118274" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.spdy.server.SpdyOrHttpHandler" target="io.netty.handler.ssl.ApplicationProtocolNegotiationHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.marshalling.MarshallingDecoder" target="io.netty.handler.codec.LengthFieldBasedFrameDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="4187.449585355862" y="1590.0" />
+      <point x="4215.449585355862" y="1590.0" />
+      <point x="-68.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.websocketx.server.WebSocketServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="22827.445698185285" y="1870.0" />
+      <point x="22858.296486785857" y="1870.0" />
+      <point x="-83.47826086956411" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.socksproxy.SocksServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="-48.0" y="-15.0" />
+      <point x="19669.906103587622" y="1340.0" />
+      <point x="12756.31399213552" y="1340.0" />
+      <point x="111.86440677965948" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket00FrameEncoder" target="io.netty.handler.codec.http.websocketx.WebSocketFrameEncoder">
+      <point x="77.33333333333331" y="-15.0" />
+      <point x="39792.56340614015" y="1590.0" />
+      <point x="39945.48007280682" y="1590.0" />
+      <point x="-54.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.helloworld.HttpHelloWorldServerHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="27691.358741663542" y="270.0" />
+      <point x="22149.3378832282" y="270.0" />
+      <point x="115.7446808510631" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.sctp.SctpInboundByteStreamHandler" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="14976.44958535586" y="710.0" />
+      <point x="17675.449585355862" y="710.0" />
+      <point x="-87.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.compression.JZlibEncoder" target="io.netty.handler.codec.compression.ZlibEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="38318.25280007955" y="1860.0" />
+      <point x="37532.25280007955" y="1860.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ByteToMessageDecoder" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="4547.44958535586" y="300.0" />
+      <point x="21940.997457696285" y="300.0" />
+      <point x="-92.59574468085157" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslSessionReuseTest.ReadAndDiscardHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="54.0" y="-15.0" />
+      <point x="19995.906103587622" y="1480.0" />
+      <point x="24628.814132609696" y="1480.0" />
+      <point x="-44.27906976744271" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelHandler.Sharable" target="io.netty.channel.ChannelHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="24673.09320237714" y="740.0" />
+      <point x="29188.019765139677" y="740.0" />
+      <point x="29188.019765139677" y="60.0" />
+      <point x="26926.17653571047" y="60.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksCmdRequestDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="3195.449585355862" y="1550.0" />
+      <point x="2287.0588235294126" y="1550.0" />
+      <point x="26.400000000001455" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest3.EventForwarder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-40.0" y="-15.0" />
+      <point x="30706.47237802718" y="1160.0" />
+      <point x="24686.116458191093" y="1160.0" />
+      <point x="13.023255813954165" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdyFrameCodec" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="-40.0" y="-15.0" />
+      <point x="8864.69958535586" y="710.0" />
+      <point x="4633.096644179392" y="710.0" />
+      <point x="85.64705882353155" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ssl.SniHandler" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="3341.0588235294126" y="760.0" />
+      <point x="4522.978997120566" y="760.0" />
+      <point x="-24.47058823529369" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.udt.echo.bytes.ByteEchoServerHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="54.0" y="-15.0" />
+      <point x="24973.77474765542" y="1290.0" />
+      <point x="24662.674597725974" y="1290.0" />
+      <point x="-10.41860465116224" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.websockets.autobahn.AutobahnServerHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="23386.852437798225" y="380.0" />
+      <point x="22085.678308760114" y="380.0" />
+      <point x="52.085106382979575" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslEchoTest.EchoHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="34.0" y="-15.0" />
+      <point x="18763.699585355862" y="1440.0" />
+      <point x="24618.39552795853" y="1440.0" />
+      <point x="-54.69767441860495" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.bytes.ByteArrayEncoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-44.0" y="-15.0" />
+      <point x="33808.22237802718" y="1040.0" />
+      <point x="24717.37227214458" y="1040.0" />
+      <point x="44.27906976744271" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.serialization.ObjectEncoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-38.0" y="-15.0" />
+      <point x="33166.22237802718" y="1070.0" />
+      <point x="24709.558318656207" y="1070.0" />
+      <point x="36.46511627907057" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.rtsp.RtspResponseEncoder" target="io.netty.handler.codec.rtsp.RtspEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="39350.48007280682" y="1880.0" />
+      <point x="39276.48007280682" y="1880.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.timeout.ReadTimeoutHandler.ReadTimeoutTask" target="io.netty.handler.timeout.ReadTimeoutHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.rtsp.RtspDecoder" target="io.netty.handler.codec.http.HttpObjectDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5623.44958535586" y="1590.0" />
+      <point x="5684.306442577024" y="1590.0" />
+      <point x="-26.285714285717404" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.stream.ChunkedWriteHandler.PendingWrite" target="io.netty.handler.stream.ChunkedWriteHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="35846.25280007955" y="960.0" />
+      <point x="35320.09320237714" y="960.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.udt.echo.message.MsgEchoClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="13080.44958535586" y="1580.0" />
+      <point x="12653.398737898233" y="1580.0" />
+      <point x="8.949152542372758" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketAutoReadTest.ServerTestHandler.State" target="io.netty.testsuite.transport.socket.SocketAutoReadTest.ServerTestHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.helloworld.HttpHelloWorldServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="24479.445698185285" y="1820.0" />
+      <point x="22908.383443307594" y="1820.0" />
+      <point x="-33.39130434782783" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.compression.ZlibDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="1584.0588235294126" y="700.0" />
+      <point x="4449.567232414685" y="700.0" />
+      <point x="-97.88235294117476" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.qotm.QuoteOfTheMomentServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="7648.44958535586" y="1370.0" />
+      <point x="12541.534331118573" y="1370.0" />
+      <point x="-102.91525423728672" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.socksproxy.DirectClientHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="22897.852437798225" y="420.0" />
+      <point x="22062.529372589903" y="420.0" />
+      <point x="28.93617021276623" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollSocketChannelTest.MyInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="25267.445698185285" y="1790.0" />
+      <point x="22933.426921568465" y="1790.0" />
+      <point x="-8.347826086956047" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslEchoTest.EchoClientHandler" target="io.netty.testsuite.transport.socket.SocketSslEchoTest.EchoHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="21350.358741663542" y="1800.0" />
+      <point x="18763.699585355862" y="1800.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.LengthFieldPrepender" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="52.0" y="-15.0" />
+      <point x="33056.22237802718" y="1520.0" />
+      <point x="34015.00461362453" y="1520.0" />
+      <point x="-37.81818181818198" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.socksproxy.SocksServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="27723.445698185285" y="1700.0" />
+      <point x="23008.557356351073" y="1700.0" />
+      <point x="66.78260869565202" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketShutdownOutputBySelfTest.TestHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="6956.44958535586" y="1340.0" />
+      <point x="12528.110602305014" y="1340.0" />
+      <point x="-116.33898305084585" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelDuplexHandler" target="io.netty.channel.ChannelOutboundHandler">
+      <point x="52.0" y="-15.0" />
+      <point x="30022.040172074107" y="150.0" />
+      <point x="30505.540172074107" y="150.0" />
+      <point x="-70.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.protobuf.ProtobufEncoder" target="io.netty.handler.codec.MessageToMessageEncoder">
+      <point x="42.0" y="-15.0" />
+      <point x="34086.22237802718" y="1570.0" />
+      <point x="36515.59320237714" y="1570.0" />
+      <point x="36515.59320237714" y="750.0" />
+      <point x="37869.662095902866" y="750.0" />
+      <point x="-51.55555555555475" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder" target="io.netty.handler.codec.http.websocketx.WebSocketFrameEncoder">
+      <point x="58.0" y="-15.0" />
+      <point x="40025.23007280682" y="1590.0" />
+      <point x="40053.48007280682" y="1590.0" />
+      <point x="54.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ssl.SslHandler" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="-32.0" y="-15.0" />
+      <point x="22622.92958025138" y="670.0" />
+      <point x="4645.331938297035" y="670.0" />
+      <point x="97.88235294117476" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketBufReleaseTest.BufWriterHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="6780.44958535586" y="1330.0" />
+      <point x="12523.636026033828" y="1330.0" />
+      <point x="-120.81355932203223" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.rtsp.RtspObjectEncoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-46.0" y="-15.0" />
+      <point x="34378.97237802718" y="1010.0" />
+      <point x="24725.18622563295" y="1010.0" />
+      <point x="52.09302325581484" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ipfilter.RuleBasedIpFilter" target="io.netty.handler.ipfilter.AbstractRemoteAddressFilter">
+      <point x="-46.0" y="-15.0" />
+      <point x="24473.77474765542" y="1330.0" />
+      <point x="22942.352437798225" y="1330.0" />
+      <point x="-66.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslEchoTest.EchoServerHandler" target="io.netty.testsuite.transport.socket.SocketSslEchoTest.EchoHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="21146.358741663542" y="1810.0" />
+      <point x="18695.699585355862" y="1810.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpRequestEncoder" target="io.netty.handler.codec.http.HttpObjectEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="38524.48007280682" y="1590.0" />
+      <point x="38100.273207013975" y="1590.0" />
+      <point x="-23.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandlerTest.CustomTextFrameHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="21617.67958025138" y="430.0" />
+      <point x="22016.23150024948" y="430.0" />
+      <point x="-17.361702127658646" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.factorial.FactorialServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="23355.445698185285" y="1860.0" />
+      <point x="22874.99213895977" y="1860.0" />
+      <point x="-66.78260869565202" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.udt.echo.message.MsgEchoServerHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-52.0" y="-15.0" />
+      <point x="23109.77474765542" y="1360.0" />
+      <point x="21495.17958025138" y="1360.0" />
+      <point x="21495.17958025138" y="420.0" />
+      <point x="22010.444266206923" y="420.0" />
+      <point x="-23.148936170213346" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.CombinedChannelDuplexHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="29789.30006816998" y="740.0" />
+      <point x="29870.76744480138" y="740.0" />
+      <point x="-99.27272727272793" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpContentCompressor" target="io.netty.handler.codec.http.HttpContentEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="37227.25280007955" y="1830.0" />
+      <point x="35730.25280007955" y="1830.0" />
+      <point x="72.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.sctp.SctpMessageToMessageDecoder" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="15720.44958535586" y="740.0" />
+      <point x="17733.449585355862" y="740.0" />
+      <point x="-29.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.socksproxy.RelayHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="3338.199585355862" y="280.0" />
+      <point x="21929.42298961118" y="280.0" />
+      <point x="-104.17021276595733" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslClientRenegotiateTest.TestHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="34.0" y="-15.0" />
+      <point x="20659.906103587622" y="1510.0" />
+      <point x="24636.628086098066" y="1510.0" />
+      <point x="-36.46511627907057" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.sctp.SctpMessageCompletionHandler" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="14684.44958535586" y="700.0" />
+      <point x="17656.116252022526" y="700.0" />
+      <point x="-106.33333333333212" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.rtsp.RtspObjectDecoder" target="io.netty.handler.codec.http.HttpObjectDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5803.44958535586" y="1590.0" />
+      <point x="5710.592156862742" y="1590.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.upload.HttpUploadServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="12204.44958535586" y="1580.0" />
+      <point x="12635.500432813487" y="1580.0" />
+      <point x="-8.949152542372758" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.telnet.TelnetClientInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="22563.445698185285" y="1860.0" />
+      <point x="22849.9486606989" y="1860.0" />
+      <point x="-91.82608695652016" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.echo.EchoServerHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="46.0" y="-15.0" />
+      <point x="26097.77474765542" y="1590.0" />
+      <point x="26888.858741663542" y="1590.0" />
+      <point x="26888.858741663542" y="310.0" />
+      <point x="22126.188947057988" y="310.0" />
+      <point x="92.59574468085157" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.websocketx.benchmarkserver.WebSocketServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="10652.44958535586" y="1510.0" />
+      <point x="12604.178398915183" y="1510.0" />
+      <point x="-40.27118644067741" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.DelimiterBasedFrameDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="8676.69958535586" y="720.0" />
+      <point x="4620.861350061741" y="720.0" />
+      <point x="73.41176470588107" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpContentEncoder.Result" target="io.netty.handler.codec.http.HttpContentEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="36787.25280007955" y="1860.0" />
+      <point x="35586.25280007955" y="1860.0" />
+      <point x="-72.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.marshalling.CompatibleMarshallingEncoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-68.0" y="-15.0" />
+      <point x="33368.22237802718" y="1060.0" />
+      <point x="24712.162969818997" y="1060.0" />
+      <point x="39.06976744186068" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.DefaultChannelPipelineTest.LifeCycleAwareTestHandler" target="io.netty.channel.ChannelHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="24452.34320237714" y="160.0" />
+      <point x="24492.59320237714" y="160.0" />
+      <point x="-27.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.worldclock.WorldClockServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="16720.449585355862" y="1410.0" />
+      <point x="12729.466534508401" y="1410.0" />
+      <point x="85.0169491525412" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketFrameEncoder" target="io.netty.channel.ChannelOutboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="39999.48007280682" y="130.0" />
+      <point x="30673.540172074107" y="130.0" />
+      <point x="98.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.rtsp.RtspRequestDecoder" target="io.netty.handler.codec.rtsp.RtspDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5515.44958535586" y="1880.0" />
+      <point x="5589.44958535586" y="1880.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.protobuf.ProtobufDecoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="42.0" y="-15.0" />
+      <point x="22155.27474765542" y="1540.0" />
+      <point x="24644.442039586436" y="1540.0" />
+      <point x="-28.651162790698436" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpClientCodec.Decoder" target="io.netty.handler.codec.http.HttpResponseDecoder">
+      <point x="-26.0" y="-15.0" />
+      <point x="7461.479512312646" y="1880.0" />
+      <point x="6180.44958535586" y="1880.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelInboundHandlerAdapter" target="io.netty.channel.ChannelInboundHandler">
+      <point x="-68.0" y="-15.0" />
+      <point x="21965.59320237714" y="160.0" />
+      <point x="1511.2159268784708" y="160.0" />
+      <point x="43.20000000000073" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.cors.HttpCorsServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="28467.445698185285" y="1670.0" />
+      <point x="23033.60083461194" y="1670.0" />
+      <point x="91.82608695652016" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.PendingWriteQueueTest.TestHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="30625.30006816998" y="710.0" />
+      <point x="29908.585626619562" y="710.0" />
+      <point x="-61.45454545454595" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.DefaultChannelPipelineTest.TestHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-34.0" y="-15.0" />
+      <point x="30364.47237802718" y="1180.0" />
+      <point x="24680.90715586551" y="1180.0" />
+      <point x="7.813953488372135" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketStringEchoTest.StringEchoHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="13452.44958535586" y="1560.0" />
+      <point x="12662.347890440606" y="1560.0" />
+      <point x="17.898305084745516" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdyFrameCodec" target="io.netty.channel.ChannelOutboundHandler">
+      <point x="40.0" y="-15.0" />
+      <point x="8944.69958535586" y="750.0" />
+      <point x="30564.540172074107" y="750.0" />
+      <point x="30564.540172074107" y="160.0" />
+      <point x="30561.540172074107" y="160.0" />
+      <point x="-14.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpContentDecoder" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="19562.776727809018" y="720.0" />
+      <point x="17791.449585355862" y="720.0" />
+      <point x="29.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.socksproxy.SocksServerHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="48.0" y="-15.0" />
+      <point x="19765.906103587622" y="1470.0" />
+      <point x="24626.209481446902" y="1470.0" />
+      <point x="-46.88372093023281" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollSpliceTest.SpliceHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="22030.67958025138" y="460.0" />
+      <point x="22033.59320237714" y="460.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketFileRegionTest.TestHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="15944.44958535586" y="1450.0" />
+      <point x="12711.568229423656" y="1450.0" />
+      <point x="67.11864406779569" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.http.websocketx.client.WebSocketClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="17220.449585355862" y="1390.0" />
+      <point x="12738.415687050774" y="1390.0" />
+      <point x="93.96610169491396" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ReplayingDecoderTest.BloatedLineDecoder" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="9904.69958535586" y="380.0" />
+      <point x="21987.29533003671" y="380.0" />
+      <point x="-46.297872340424874" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket07FrameEncoder" target="io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="39841.23007280682" y="1880.0" />
+      <point x="39909.23007280682" y="1880.0" />
+      <point x="-58.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.sctp.SctpEchoServerHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-54.0" y="-15.0" />
+      <point x="25777.77474765542" y="1220.0" />
+      <point x="24201.102437798225" y="1220.0" />
+      <point x="24201.102437798225" y="330.0" />
+      <point x="22114.61447897288" y="330.0" />
+      <point x="81.02127659574398" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.timeout.IdleStateHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="35692.09320237714" y="550.0" />
+      <point x="30050.403808437743" y="550.0" />
+      <point x="80.36363636363603" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectEncoder" target="io.netty.handler.codec.MessageToMessageEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="38123.273207013975" y="770.0" />
+      <point x="37946.995429236194" y="770.0" />
+      <point x="25.77777777777783" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ssl.ApplicationProtocolNegotiationHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="9096.69958535586" y="350.0" />
+      <point x="21969.93362790905" y="350.0" />
+      <point x="-63.65957446808534" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpResponseEncoder" target="io.netty.handler.codec.http.HttpObjectEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="39430.48007280682" y="1570.0" />
+      <point x="38192.273207013975" y="1570.0" />
+      <point x="69.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.telnet.TelnetServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="23091.445698185285" y="1870.0" />
+      <point x="22866.644312872813" y="1870.0" />
+      <point x="-75.13043478260806" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.uptime.UptimeClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="-50.0" y="-15.0" />
+      <point x="20387.906103587622" y="1310.0" />
+      <point x="12769.737720949079" y="1310.0" />
+      <point x="125.28813559321861" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.timeout.IdleStateHandler.ReaderIdleTimeoutTask" target="io.netty.handler.timeout.IdleStateHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="36618.25280007955" y="910.0" />
+      <point x="35750.7598690438" y="910.0" />
+      <point x="58.66666666666674" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketProtocolHandler" target="io.netty.handler.codec.MessageToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="19034.776727809018" y="740.0" />
+      <point x="17752.78291868919" y="740.0" />
+      <point x="-9.66666666666788" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketClientProtocolHandshakeHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="3066.199585355862" y="270.0" />
+      <point x="21923.635755568626" y="270.0" />
+      <point x="-109.95744680851021" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.socks.SocksAuthRequestDecoder.State" target="io.netty.handler.codec.socks.SocksAuthRequestDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.timeout.ReadTimeoutHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="839.0" y="240.0" />
+      <point x="21906.274053440968" y="240.0" />
+      <point x="-127.31914893617068" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.base64.Base64Encoder" target="io.netty.handler.codec.MessageToMessageEncoder">
+      <point x="38.0" y="-15.0" />
+      <point x="33706.22237802718" y="1550.0" />
+      <point x="36314.59320237714" y="1550.0" />
+      <point x="36314.59320237714" y="730.0" />
+      <point x="37818.10654034731" y="730.0" />
+      <point x="-103.1111111111095" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketClientProtocolHandler" target="io.netty.handler.codec.http.websocketx.WebSocketProtocolHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="17804.449585355862" y="1390.0" />
+      <point x="19094.776727809018" y="1390.0" />
+      <point x="60.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.bootstrap.BootstrapTest.DummyHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="-36.0" y="-15.0" />
+      <point x="25102.77474765542" y="1280.0" />
+      <point x="23505.352437798225" y="1280.0" />
+      <point x="23505.352437798225" y="370.0" />
+      <point x="22091.465542802667" y="370.0" />
+      <point x="57.87234042553246" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.timeout.IdleStateHandler.AllIdleTimeoutTask" target="io.netty.handler.timeout.IdleStateHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="36158.25280007955" y="930.0" />
+      <point x="35633.426535710474" y="930.0" />
+      <point x="-58.66666666666674" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.GlobalChannelTrafficShapingHandler" target="io.netty.handler.traffic.AbstractTrafficShapingHandler">
+      <point x="80.0" y="-15.0" />
+      <point x="31468.22237802718" y="1460.0" />
+      <point x="32411.55006816998" y="1460.0" />
+      <point x="-35.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.portunification.PortUnificationServerHandler" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="3121.0588235294126" y="750.0" />
+      <point x="4510.743703002916" y="750.0" />
+      <point x="-36.70588235294417" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.AbstractTrafficShapingHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="32446.55006816998" y="600.0" />
+      <point x="30012.585626619562" y="600.0" />
+      <point x="42.54545454545405" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpContentDecompressor" target="io.netty.handler.codec.http.HttpContentDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="18126.449585355862" y="1400.0" />
+      <point x="19562.776727809018" y="1400.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.ChannelOutboundHandlerAdapter" target="io.netty.channel.ChannelHandlerAdapter">
+      <point x="-70.0" y="-15.0" />
+      <point x="30344.040172074107" y="130.0" />
+      <point x="24600.59320237714" y="130.0" />
+      <point x="81.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.compression.JdkZlibEncoder" target="io.netty.handler.codec.compression.ZlibEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="38146.25280007955" y="1870.0" />
+      <point x="37464.25280007955" y="1870.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.compression.SnappyFramedDecoder.ChunkType" target="io.netty.handler.codec.compression.SnappyFramedDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocket00FrameEncoder" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-77.33333333333331" y="-15.0" />
+      <point x="39637.896739473494" y="840.0" />
+      <point x="24727.79087679574" y="840.0" />
+      <point x="54.69767441860495" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketCancelWriteTest.TestHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="16100.44958535586" y="1440.0" />
+      <point x="12716.042805694842" y="1440.0" />
+      <point x="71.59322033898206" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.factorial.BigIntegerDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="5465.44958535586" y="740.0" />
+      <point x="4596.3907618264475" y="740.0" />
+      <point x="48.94117647058738" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.telnet.TelnetServerHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="50.0" y="-15.0" />
+      <point x="19551.906103587622" y="1460.0" />
+      <point x="24623.604830284115" y="1460.0" />
+      <point x="-49.48837209302292" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.cors.CorsHandlerTest.EchoHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="9156.44958535586" y="1440.0" />
+      <point x="12572.856365016878" y="1440.0" />
+      <point x="-71.59322033898206" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandlerTest.MockOutboundHandler" target="io.netty.channel.ChannelOutboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="30194.040172074107" y="460.0" />
+      <point x="30358.040172074107" y="460.0" />
+      <point x="-56.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.ipfilter.UniqueIpFilter" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="40.0" y="-15.0" />
+      <point x="24751.77474765542" y="1310.0" />
+      <point x="24660.069946563184" y="1310.0" />
+      <point x="-13.023255813954165" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.cors.CorsHandler" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="31425.30006816998" y="670.0" />
+      <point x="29946.403808437743" y="670.0" />
+      <point x="-23.636363636363967" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.marshalling.MarshallingEncoder" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="48.0" y="-15.0" />
+      <point x="32612.22237802718" y="1500.0" />
+      <point x="33977.186431806345" y="1500.0" />
+      <point x="-75.63636363636397" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.epoll.EpollReuseAddrTest.DatagramSocketTestHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="62.0" y="-15.0" />
+      <point x="25641.77474765542" y="1230.0" />
+      <point x="24670.488551214345" y="1230.0" />
+      <point x="-2.6046511627901054" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpObjectDecoder.LineParser" target="io.netty.handler.codec.http.HttpObjectDecoder.HeaderParser">
+      <point x="-32.0" y="-15.0" />
+      <point x="5996.69958535586" y="1880.0" />
+      <point x="5987.44958535586" y="1880.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.LengthFieldPrepender" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-52.0" y="-15.0" />
+      <point x="32952.22237802718" y="1080.0" />
+      <point x="24706.953667493413" y="1080.0" />
+      <point x="33.86046511627865" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ByteToMessageCodec.Encoder" target="io.netty.handler.codec.MessageToByteEncoder">
+      <point x="26.0" y="-15.0" />
+      <point x="36016.25280007955" y="940.0" />
+      <point x="34071.7318863518" y="940.0" />
+      <point x="18.90909090909099" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.spdy.client.HttpResponseClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="9368.44958535586" y="1450.0" />
+      <point x="12577.330941288064" y="1450.0" />
+      <point x="-67.11864406779569" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.file.FileServerHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="8568.44958535586" y="1410.0" />
+      <point x="12559.432636203319" y="1410.0" />
+      <point x="-85.0169491525412" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.GlobalTrafficShapingHandler" target="io.netty.handler.traffic.AbstractTrafficShapingHandler">
+      <point x="66.0" y="-15.0" />
+      <point x="31142.22237802718" y="1450.0" />
+      <point x="32341.55006816998" y="1450.0" />
+      <point x="-105.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.traffic.GlobalChannelTrafficShapingHandler.ToSend" target="io.netty.handler.traffic.GlobalChannelTrafficShapingHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="29432.97237802718" y="1880.0" />
+      <point x="31468.22237802718" y="1880.0" />
+      <point x="80.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.worldclock.WorldClockServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="25811.445698185285" y="1770.0" />
+      <point x="22950.122573742377" y="1770.0" />
+      <point x="8.347826086956047" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketFrameDecoder" target="io.netty.channel.ChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="506.0" y="770.0" />
+      <point x="146.5" y="770.0" />
+      <point x="146.5" y="150.0" />
+      <point x="1424.8159268784693" y="150.0" />
+      <point x="-43.20000000000073" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketSslClientRenegotiateTest.TestHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="-34.0" y="-15.0" />
+      <point x="20591.906103587622" y="1300.0" />
+      <point x="12774.212297220265" y="1300.0" />
+      <point x="129.762711864405" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.HttpClientCodec" target="io.netty.channel.CombinedChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="27041.27474765542" y="1570.0" />
+      <point x="29698.633401503314" y="1570.0" />
+      <point x="-90.66666666666606" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.udt.echo.message.MsgEchoServerHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="52.0" y="-15.0" />
+      <point x="23213.77474765542" y="1560.0" />
+      <point x="24649.65134191202" y="1560.0" />
+      <point x="-23.441860465116406" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ByteToMessageCodecTest.InvalidByteToMessageCodec" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-62.0" y="-15.0" />
+      <point x="31630.22237802718" y="1130.0" />
+      <point x="24693.930411679463" y="1130.0" />
+      <point x="20.8372093023263" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.securechat.SecureChatClientHandler" target="io.netty.channel.SimpleChannelInboundHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="15496.44958535586" y="1470.0" />
+      <point x="12702.619076881283" y="1470.0" />
+      <point x="58.16949152542293" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.ReplayingDecoderTest.LineDecoder" target="io.netty.handler.codec.ReplayingDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="2743.449585355862" y="1570.0" />
+      <point x="2251.8588235294083" y="1570.0" />
+      <point x="-8.80000000000291" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.websockets.autobahn.AutobahnServerInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="25047.445698185285" y="1800.0" />
+      <point x="22925.07909548151" y="1800.0" />
+      <point x="-16.695652173912094" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest3.EventRecorder" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="31590.80006816998" y="650.0" />
+      <point x="29965.312899346834" y="650.0" />
+      <point x="-4.727272727272066" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.spdy.SpdySessionHandlerTest.EchoHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="8478.69958535586" y="340.0" />
+      <point x="21964.146393866497" y="340.0" />
+      <point x="-69.44680851063822" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.spdy.client.SpdyFrameLogger.Direction" target="io.netty.example.spdy.client.SpdyFrameLogger">
+      <point x="0.0" y="-15.0" />
+      <point x="36806.25280007955" y="900.0" />
+      <point x="36000.09320237714" y="900.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.channel.local.LocalTransportThreadModelTest.MessageForwarder1" target="io.netty.channel.ChannelDuplexHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="30233.30006816998" y="730.0" />
+      <point x="29889.67653571047" y="730.0" />
+      <point x="-80.36363636363603" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler" target="io.netty.handler.codec.http.websocketx.WebSocketProtocolHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="17496.449585355862" y="1380.0" />
+      <point x="18974.776727809018" y="1380.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+    <edge source="io.netty.example.worldclock.WorldClockClientInitializer" target="io.netty.channel.ChannelInitializer">
+      <point x="0.0" y="-15.0" />
+      <point x="27459.445698185285" y="1710.0" />
+      <point x="23000.209530264117" y="1710.0" />
+      <point x="58.43478260869597" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.codec.LengthFieldBasedFrameDecoder" target="io.netty.handler.codec.ByteToMessageDecoder">
+      <point x="0.0" y="-15.0" />
+      <point x="4283.449585355862" y="770.0" />
+      <point x="4535.21429123821" y="770.0" />
+      <point x="-12.235294117650483" y="15.0" />
+    </edge>
+    <edge source="io.netty.testsuite.transport.socket.SocketConnectionAttemptTest.TestHandler" target="io.netty.channel.ChannelInboundHandlerAdapter">
+      <point x="0.0" y="-15.0" />
+      <point x="7730.69958535586" y="310.0" />
+      <point x="21946.784691738838" y="310.0" />
+      <point x="-86.80851063829869" y="15.0" />
+    </edge>
+    <edge source="io.netty.handler.logging.LoggingHandler" target="io.netty.channel.ChannelHandler.Sharable">
+      <point x="-40.0" y="-15.0" />
+      <point x="30526.47237802718" y="1170.0" />
+      <point x="24683.5118070283" y="1170.0" />
+      <point x="10.41860465116224" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="7543.277777777774" y="614.7222222222222" />
+  <SelectedNodes>
+    <node>io.netty.channel.ChannelHandler</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
